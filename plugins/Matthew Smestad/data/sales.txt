@@ -1,5 +1,5 @@
 shipyard "Betelgeuse Advanced"
-	"Phoenix(MS)"
+	" Phoenix "
 
 shipyard "Lionheart Advanced"
 	"Bactrian T2"
