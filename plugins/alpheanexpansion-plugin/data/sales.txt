@@ -367,3 +367,6 @@ outfitter "Ammo North"
 	
 outfitter "Hai Advanced"
 	"Hai Tracker Secondary Magazine"
+    
+outfitter "SellingAndBuying"
+		"Local Map"
