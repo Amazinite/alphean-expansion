@@ -840,4 +840,46 @@ ship "Capitalis Viatoris Unleashed"
 	explode "medium explosion" 50
 	explode "big explosion" 70
 	explode "huge explosion" 25
-	description "Storyline ship, tell me how you got this in the first place."
+	description "Planned storyline ship, tell me how you got this in the first place."
+
+ ship "Megaship MMMXXII"
+	sprite "ship/megaship"
+	attributes
+		category "Heavy Warship"
+		"cost" 0
+		"shields" 100
+		"hull" 100
+		"required crew" 1
+		"bunks" 1
+		"mass" 1
+		"drag" 1
+		"heat dissipation" 1
+		"fuel capacity" 100
+		"cargo space" 10
+		"outfit space" 200
+        "megaship capacity" 5000
+		"identification" -1
+		weapon
+			"blast radius" 700
+			"shield damage" 14000
+			"hull damage" 7200
+			"hit force" 11200
+	outfits
+		"Capital Identification"   
+	turret 0 -186
+	turret -74 -113
+	turret -84 233
+	gun -39 -301
+	gun -18 -335
+	engine -57 344
+	turret 74 -113
+	turret 84 233
+	gun 39 -301
+	gun 18 -335
+	engine 57 344
+	explode "tiny explosion" 15
+	explode "small explosion" 35
+	explode "medium explosion" 50
+	explode "big explosion" 70
+	explode "huge explosion" 25
+    description "Megaship. Not buyable yet."
