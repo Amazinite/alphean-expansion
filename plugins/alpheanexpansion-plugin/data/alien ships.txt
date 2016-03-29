@@ -1,0 +1,47 @@
+# Copyright (c) 2016 by Alphean Boolean
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Korath Raider"
+	outfits
+		"Korath Grab-Strike" 4
+		"Korath Banisher"
+		"Korath Warder"
+		"Korath Tek'nel Reactor"
+		"Korath Shield Generator"
+		"Korath Heat Shunt"
+		"Ramscoop"
+		"Intrusion Countermeasures" 4
+		"Korath Jak'torbal Thruster"
+		"Korath Jak'parat Steering"
+		"Jump Drive"
+		"Korath Crew Member" 246
+
+ship "Korath Chaser"
+	outfits
+		"Korath Fire-Lance"
+		"Korath Tek'far Reactor"
+		"Korath Ark'torbal Thruster"
+		"Korath Ark'parat Steering"
+		"Korath Crew Member"
+
+ship "Korath World-Ship"
+	outfits
+		"Korath Grab-Strike" 2
+		"Korath Banisher" 3
+		"Korath Warder" 3
+		"Korath Tek'nel Reactor"
+		"Korath Shield Generator"
+		"Korath Heat Shunt"
+		"Ramscoop"
+		"Intrusion Countermeasures" 6
+		"Korath Jak'torbal Thruster"
+		"Korath Jak'parat Steering"
+		"Hyperdrive"
+		"Korath Crew Member" 1486

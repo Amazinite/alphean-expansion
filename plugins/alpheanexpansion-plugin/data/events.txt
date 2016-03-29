@@ -1,0 +1,78 @@
+# Copyright (c) 2016 by Alphean Boolean
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+event "geminus fixed"
+	date 27 2 3017
+	planet Geminus
+		shipyard "Basic Ships"
+		shipyard "Navy Basics"
+		shipyard "Navy Advanced"
+		shipyard "Betelgeuse Basics"
+		shipyard "Lionheart Basics"
+		outfitter "Common Outfits"
+		outfitter "Ammo North"
+		outfitter "Lovelace Advanced"
+		outfitter "Syndicate Basics"
+		
+event "sugar mining colony"
+	planet C12H22O11
+		description `C12H22O11, also known as sugar, was recently colonized by the Penum. With Sugar colonized, the Penum are no longer bound by credits to buy ships.`
+		spaceport `The spaceport isn't really a spaceport. It consists of several Bulk Freighters converted into residences and a few cement landing pads. It might be a good idea to not stay here too long as the mining operations can be heard loudly and you don't want to become deaf.`
+		outfitter "Penum Basic"
+		"required reputation" 25
+		bribe 0.2
+		security 0.7
+
+event "cerat agricultural center"
+	planet Cerat
+		description `Cerat has recently been colonized and is now used by the Penum to feed their population. The population that have lived here before Cerat was truly colonized have a special area only higher-ups may enter.`
+		spaceport `The spaceport seems to be designed with the thought of polluting the planet as little as possible. It consists of a few flattened patches of land which are supposed to landing pads and a single large dome in which everything goes on.`
+		"required reputation" 25
+		bribe 0.2
+		security 0.5
+		
+event "kretos city"
+	planet Kretos
+		description `Kretos is a mountainous planet which has recently been colonized by the Penum. It has been some time and in that short time, Kretos has already developed into a real city planet. The largest city, Gjiro, is currently home to approximately 162 thousand people.`
+		spaceport `The spaceport is very advanced and has capacity for just over thousand ships. There are many well-armed guards preventing entry from certain parts.`
+		shipyard "Penum Basic"
+		shipyard "Penum Advanced"
+		outfitter "Penum Basic"
+		outfitter "Penum Advanced"
+		"required reputation" 50
+		bribe 0.2
+		security 0.9
+
+event "tyil set up"
+	date 11 4 3014
+	planet Tyil
+		shipyard "Tyil Basics"
+		shipyard "Tyil Advanced"
+		shipyard "Betelgeuse Basics"
+		shipyard "Lionheart Basics"
+		outfitter "Common Outfits"
+		outfitter "Ammo South"
+		outfitter "Tyil Advanced"
+		outfitter "Pirate Outfits"
+		description `Tyil is the homeplanet of Tyil Corporation. Only here can the Goose and the Grenade Launcher be bought as Tyil Corporation has patented their Grenade Launcher.`
+
+	planet "Aurum Station"
+		shipyard "Tyil Basics"
+		outfitter "Common Outfits"
+		outfitter "Ammo South"
+		outfitter "Tyil Basics"
+		outfitter "Pirate Outfits"
+		description `Aurum Station is the only other place that Tyil Corporation sells outfits. The station is quite empty though.`
+		
+event "deep sky tech available"
+	outfitter "Deep Sky Basics"
+		"Typhoon Supply Depot"
+	outfitter "Deep Sky Advanced"
+		"Typhoon Supply Depot"

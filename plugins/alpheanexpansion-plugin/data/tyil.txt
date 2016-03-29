@@ -1,0 +1,11 @@
+mission "tyil"
+	landing
+	source
+		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate (South)" "Pirate (Core)" "Pirate (North)"
+	to offer
+		has "event: tyil set up"
+	on offer
+		conversation
+			`Tyil Corporation is a newly established company selling Ships and Weapons.`
+			`They are known for they ship, 'The Goose' and their Grenade Launcher weapon.`
+			`You can buy these at Tyil in the Silicium System.`
