@@ -842,18 +842,18 @@ ship "Capitalis Viatoris Unleashed"
 	explode "huge explosion" 25
 	description "Planned storyline ship, tell me how you got this in the first place."
 
- ship "Megaship MMMXXII"
+ ship "Megaship MMMXV"
 	sprite "ship/megaship"
 	attributes
 		category "Heavy Warship"
-		"cost" 0
-		"shields" 100
-		"hull" 100
-		"required crew" 1
-		"bunks" 1
-		"mass" 1
-		"drag" 1
-		"heat dissipation" 1
+		"cost" 50000000
+		"shields" 70000
+		"hull" 32500
+		"required crew" 500
+		"bunks" 755
+		"mass" 10950
+		"drag" 60.7
+		"heat dissipation" 0.37
 		"fuel capacity" 100
 		"cargo space" 10
 		"outfit space" 200
