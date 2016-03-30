@@ -525,3 +525,19 @@ outfit "Pillager Bolt-on Cockpit"
 	description "For the captain who needs more outfit space and does not particularily care about their mass and hull strength."
 	description "The Pillager Bolt-on Cockpit is a used Heavy Shuttle renovated and modified to be bolted onto a ship. Security systems installed make it so that it has less outfit space than the Heavy Shuttle itself."
 	
+outfit "MEGA Safety Unlock"
+    category "Systems"
+    cost 2500000
+    mass 50
+    "megaship capacity" 100
+    "safety unlock" 1
+    description "Megaships have their turret mounts and gun ports protected by a special safety code. To unlock it, a safety unlock has to be installed allowing one mega weapon per unlock."
+    
+outfit "MEGA Shield Module"
+    category "Systems"
+    cost 10000000
+    mass 100
+    "megaship capacity" 500
+    "shield generation" 45
+    "shield energy" 50
+    description "Megaships are the leader of the battlefield. As such they need adequite protection. A large amount of shield energy means that the megaship also requires a strong shield generator."
