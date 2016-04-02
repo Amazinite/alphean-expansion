@@ -59,45 +59,7 @@ government Wormhole
 	color .18 .03 .33
 	bribe 0
 	fine 0
-	
-government "Pirate (Core)"
-	swizzle 6
-	color .78 0 0
-	
-	"player reputation" -10
-	"attitude toward"
-		"Merchant" -.1
-		"Syndicate" -.1
-	"bribe" .05
-	"fine" 0
-	"hostile hail" "hostile pirate"
-	
-government "Pirate (North)"
-	swizzle 6
-	color .78 0 0
-	
-	"player reputation" -10
-	"attitude toward"
-		"Merchant" -.1
-		"Republic" -.1
-	"bribe" .05
-	"fine" 0
-	"hostile hail" "hostile pirate"
-	
-government "Pirate (South)"
-	swizzle 6
-	color .78 0 0
-	
-	"player reputation" -10
-	"attitude toward"
-		"Merchant" -.1
-		"Free Worlds" -.1
-		"Militia" -.1
-		"Republic" -.1
-	"bribe" .05
-	"fine" 0
-	"hostile hail" "hostile pirate"
-	
+			
 government "Sentarians"
 	swizzle 0
 	color 0 .41 .71
@@ -115,9 +77,6 @@ government "Sentarians"
 		"Union" -.1
 		"Neutral" -.1
 		"Pirate" -.1
-		"Pirate (Core)" -.1
-		"Pirate (South)" -.1
-		"Pirate (North)" -.1
 		"Independent" -.1
 		"Hai" -.1
 		"Hai (Unfettered)" -.1
@@ -125,7 +84,7 @@ government "Sentarians"
 		"Quarg" -.1
 		"Pug" -.1
 		"Wanderer" -.1
-	"bribe" .01
+	"bribe" 0
 	raid "Sentar L"
 	
 government "Erufiams"

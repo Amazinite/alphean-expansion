@@ -676,65 +676,14 @@ planet Tyil
 	tribute 700
 		threshold 3000
 		fleet "Large Militia" 5
-		
-#Pirate Government Switch
-system Gienah
-	government "Pirate (Core)"
 	
-system Algenib
-	government "Pirate (Core)"
-	
-system Nunki
-	government "Pirate (South)"
-
-system Shaula
-	government "Pirate (South)"
-	fleet "Small Southern Pirates" 400
-	fleet "Large Southern Pirates" 900
-	fleet "Large Militia" 1200
-    
-system Antares
-	government "Pirate (South)"
-
-system Men
-	government "Pirate (South)"
-	
-system Arneb
-	government "Pirate (North)"
-	
-system Alnilam
-	government "Pirate (North)"
-	
-system Almaaz
-	government "Pirate (North)"
-	
+#Union
 system Alcyone
 	link Dibtar
 	link Zaurak
 	link Oblate
 	link Durax
-	government "Pirate (Core)"
-	fleet "Small Core Pirates" 400
-	fleet "Large Core Pirates" 600
-	fleet "Large Syndicate" 1200
-	
-system Durax
-	government "Pirate (Core)"
-	fleet "Small Core Pirates" 300
-	fleet "Large Core Pirates" 500
-	fleet "Large Syndicate" 2000
-	fleet "Korath Raid" 20000
-	
-system Oblate
-	government "Pirate (Core)"
-	fleet "Small Core Pirates" 600
-	fleet "Large Core Pirates" 1000
-	fleet "Large Syndicate" 3000
-	
-system Almach
-	government "Pirate (Core)"
-	
-#Union
+    
 system Dibtar
 	pos -114.13 -176.258
 	government Union
