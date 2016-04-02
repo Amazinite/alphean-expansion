@@ -462,6 +462,9 @@ planet Arkban
 	"required reputation" 25
 	bribe 0.2
 	security 0
+	tribute 7000
+		threshold 20000
+		fleet "Penum Defence" 15
 
 planet C12H22O11
 	attributes penum mining
@@ -487,6 +490,9 @@ planet Express
 	"required reputation" 1
 	bribe 0
 	security 0
+	tribute 600
+		threshold 20000
+		fleet "Penum Defence" 3
 
 planet Kretos
 	attributes penum urban
@@ -686,6 +692,7 @@ system Shaula
 	fleet "Small Southern Pirates" 400
 	fleet "Large Southern Pirates" 900
 	fleet "Large Militia" 1200
+    
 system Antares
 	government "Pirate (South)"
 
