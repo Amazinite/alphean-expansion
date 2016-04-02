@@ -38,6 +38,7 @@ outfit "XF-111 Ship Core"
 	"energy generation" 1.15
 	"shield generation" 0.17
 	"heat generation" 1
+    "shield energy" 1
 	"description" "A very handy multi-purpose outfit commonly found on the smaller side of ships or on transports."
 
 outfit "XF-333 Ship Core"
@@ -52,6 +53,7 @@ outfit "XF-333 Ship Core"
 	"hyperdrive" 1
 	"shield generation" 0.36
 	"heat generation" 3
+    "shield energy" 1
 	"description" "A multipurpose outfit mostly used for medium ships. This size has a finely tuned hyperdrive."
 
 outfit "XF-555 Ship Core"
@@ -67,6 +69,8 @@ outfit "XF-555 Ship Core"
 	"shield generation" 0.8
 	"heat generation" 35
 	"hull repair rate" 0.7
+    "shield energy" 1
+    "hull energy" 1
 	"description" "A very handy multi-purpose outfit, it carries a Generator, a Hyperdrive, a Shield Generator and a Nanite Damage Control Unit."
 		
 outfit "Hervar Regenerator"
@@ -78,6 +82,7 @@ outfit "Hervar Regenerator"
 	"shield generation" .78
 	"energy generation" -.5
 	"heat generation" 4
+    "shield energy" 1
 	description "A prototype shield regenerator originally developed by the Republic, the only working prototype of it was stolen by pirates, who then starting producing them. They do, however, cost a lot of money."
 
 outfit "Sizeable Map"
@@ -116,7 +121,7 @@ outfit "I-3 Interference Plating"
 
 outfit "Signal Interdictor Deluxe"
 	category "Systems"
-	cost 8000000
+	cost 3000000
 	thumbnail "outfit/unknown"
 	"required crew" 7
 	"mass" 24
@@ -129,7 +134,7 @@ outfit "S-45 Lamprey"
 	category "Hand to Hand"
 	cost 15000
 	thumbnail "outfit/unknown"
-	"bot capacity" -1
+	"outfit space" -2
 	"capture attack" 1
 	"capture defense" 2
 	description "A more defence based guard bot, it is used mostly in freighters."
@@ -138,7 +143,7 @@ outfit "R-120 Warbird"
 	category "Hand to Hand"
 	cost 20000
 	thumbnail "outfit/unknown"
-	"bot capacity" -1
+	"outfit space" -7
 	"capture attack" 5.2
 	"capture defense" 2.6
 	description "The Republic Navy uses this model of boarding bots for boarding pirates or capturing other enemy ships."
@@ -150,61 +155,34 @@ outfit "Sentry Gun"
 	"mass" 4
 	"outfit space" -4
 	"capture defense" 7
-	description "This model sentry guns may be the best ship defense money can buy."
+	description "This model of sentry guns may be the best ship defense money can buy."
 
 outfit "P-75 Archangel"
 	category "Hand to Hand"
 	cost 85000
 	thumbnail "outfit/unknown"
-	"bot capacity" -1
+	"outfit space" -10
 	"capture attack" 4.3
 	"capture defense" 8.5
 	description "A true defence bot. This model created by the Penum used organic materials to grant it its defensive capabilities. It can take damage and do the same to the opposition."
-
-outfit "Jipach Model Android"
+		
+outfit "Engineer Bot"
 	category "Special"
-	cost 120000
+	cost 20000
 	thumbnail "outfit/unknown"
-	mass 1
-	"bot capacity" -1
-	"required crew" -1
-	"android card slot" 1
-	"energy generation" -0.12
-	description "With the first working android being built a few centuries ago, the technology remains very much unchanged. It has a constant power draw. An AI card may be used to specialize the android it certain fields, such as boarding or even ship repair."
-	
-outfit "Bot Racks"
-	category "Systems"
-	cost 300000
-	thumbnail "outfit/unknown"
-	"bot capacity" 12
-	mass 30
-	"outfit space" -30
-	description "A bot rack capable of holding 12 bots."
-	
-outfit "Boarding AI Card"
-	category "Special"
-	cost 15000
-	thumbnail "outfit/unknown"
-	"android card slot" -1
-	"capture attack" 1.8
-	"capture defense" 1
-	description "An AI card which can be inserted into an android. This converts it into a boarding bot."
-	
-outfit "Engineer AI Card"
-	category "Special"
-	cost 15000
-	thumbnail "outfit/unknown"
-	"android card slot" -1
+	"outfit space" -2
 	"energy generation" 0.3
 	"shield generation" 0.1
+    "shield energy" 1
 	description "An AI card which can be inserted into an android. This converts it into an engineer bot."
 	
-outfit "Repair AI Card"
+outfit "Repair Bot"
 	category "Special"
 	cost 15000
 	thumbnail "outfit/unknown"
-	"android card slot" -1
+	"outfit space" -1
 	"hull repair rate" 0.2
+    "hull energy" 1
 	description "An AI card which can be inserted into an android. This converts it into a repair bot."
 	
 outfit "AI Mainframe"
@@ -260,6 +238,7 @@ outfit "SF-2 Thorn Shield Generator"
 	"mass" 130
 	"outfit space" -130
 	"shield generation" 2.79
+    "shield energy" 1
 	description "A very powerful shield generator."
 
 outfit "SF-1 Horn Regenerator"
@@ -271,6 +250,7 @@ outfit "SF-1 Horn Regenerator"
 	"shield generation" .8
 	"energy generation" -.3
 	"heat generation" 2
+    "shield energy" 1
 	description "Similar to Hai shield regenerators, but smaller and more efficient."
 
 outfit "HN-7 Thorn Coolant System"
@@ -315,6 +295,8 @@ outfit "S3NTAR Ship Core"
 	"outfit space" -300
 	"shield generation" 120
 	"hull repair rate" 120
+    "shield energy" 1
+    "hull energy" 1
 	description "The strongest ship core in both the Milky Way and Sentarian Galaxy, it produces hull and shield energy through an unknown process. What is known about the process is that it takes up a lot of space."
 	
 outfit "S3NTAR Defensive Countermeasures"
