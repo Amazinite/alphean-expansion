@@ -179,6 +179,6 @@ mission "Max Combat Rating License"
 	source
 		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate (South)" "Pirate (Core)" "Pirate (North)"
 	to offer
-		"combat rating" >= 14000
+		"combat rating" >= 1202878
 	on offer
 		set "license: Terror of the Galaxy"
