@@ -842,7 +842,7 @@ ship "Capitalis Viatoris Unleashed"
 	explode "huge explosion" 25
 	description "Planned storyline ship, tell me how you got this in the first place."
 
- ship "Megaship MMMXV"
+ship "Megaship MMMXV"
 	sprite "ship/megaship"
 	attributes
 		category "Heavy Warship"
