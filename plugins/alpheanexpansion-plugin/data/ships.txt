@@ -193,7 +193,8 @@ ship "Spearhead"
 	explode "small explosion" 36
 	explode "medium explosion" 24
 	explode "big explosion" 8
-	description "A heavily modified version of the Splinter. By pirates, for pirates. This version sacrifices cargo space for more outfit space. It has not been in production for very long, but it is designed to be a moderately armed medium command ship."
+	description "A heavily modified version of the Splinter. By pirates, for pirates. This version sacrifices cargo space for more outfit space. It is designed to be a moderately armed medium command ship."
+    description "A relic of the past, it is only used by the poorest of pirate captains."
 
 ship "Horn"
 	sprite "ship/horn"
@@ -464,71 +465,6 @@ ship "Therum"
 	explode "medium explosion" 15
 	description "A prototype heavy interceptor, it carries 2 Meteor Missile Launchers and a newly developed Energy Chaingun to swiftly take care of enemies."
 
-ship "Nemesis Carrier"
-	licenses
-		Syndicate
-	sprite "ship/syndicarrier"
-	attributes
-		category "Heavy Warship"
-		"cost" 19000000
-		"shields" 9200
-		"hull" 1400
-		"required crew" 61
-		"bunks" 75
-		"mass" 600
-		"drag" 11.3
-		"heat dissipation" .47
-		"fuel capacity" 500
-		"cargo space" 75
-		"outfit space" 540
-		"weapon capacity" 150
-		"engine capacity" 100
-		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
-			"ion damage" 5
-	outfits
-		"Heavy Anti-Missile Turret" 3
-		
-		"Liquid Nitrogen Cooler"
-		"Breeder Reactor"
-		"LP144a Battery Pack"
-		"D94-YV Shield Generator" 2
-		"Ramscoop"
-		"Security Station" 4
-		"Laser Rifle" 20
-		"XF-111 Ship Core" 2
-		"XF-333 Ship Core"
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-	
-	engine -19 196.5
-	engine 19 196.5
-	engine -61.5 163
-	engine 61.5 163
-	turret 0 7 "Heavy Anti-Missile Turret"
-	turret -32 176 "Heavy Anti-Missile Turret"
-	turret 32 176 "Heavy Anti-Missile Turret"
-	fighter -60 117.5
-	fighter -60 54
-	fighter -60 -10.5
-	fighter -60 -74
-	fighter -60 -137
-	fighter 60 117.5
-	fighter 60 54
-	fighter 60 -10.5
-	fighter 60 -74
-	fighter 60 -137
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "big explosion" 40
-	explode "huge explosion" 10
-	description "A Hulk in terms of fighter capacity, this prototype carrier holds 10 fighters but has little weapon space of itself to speak of."
-
 ship "Gnosis Transport"
 	licenses
 		Syndicate
@@ -581,7 +517,7 @@ ship "Gnosis Transport"
 	explode "medium explosion" 50
 	explode "big explosion" 40
 	explode "huge explosion" 10
-	description "An exact replica of the Nemesis Carrier, this is more like a space hotel. It is very well defended for a transport."
+	description "This is more like a space hotel. It is very well defended for a transport."
 	
 ship "Erebus"
 	sprite "ship/Erebus"
@@ -609,8 +545,8 @@ ship "Erebus"
 		"S3NTAR Steering"
 		"S3NTAR Ship Core"
 		"Multi Drive"
-		"Crew Raiser" 10
-		"S3NTAR Defensive Countermeasures"
+		"Crew Raiser" 15
+		"S3NTAR Defensive Countermeasures" 50
 
 	engine 61.5 125
 	engine -61.5 125
@@ -652,7 +588,7 @@ ship "Unknown Drone"
 		"Hyperdrive"
 	engine -9 30
 	engine 9 30
-	description "Reality says it shouldn't exist. Yet it does."
+	description "Is it really that bad to be a lazy developer for a game that is very easy to mod?"
 	
 ship "Capitalis Viatoris"
 	licenses
@@ -688,8 +624,7 @@ ship "Capitalis Viatoris"
 		"D94-YV Shield Generator" 4
 		"Liquid Helium Cooler" 4
 		"Catalytic Ramscoop"
-		"Bot Racks"
-		"R-120 Warbird" 12
+		"R-120 Warbird" 6
 		"Sentry Gun" 14
 		"Laser Rifle" 47
 		"Fragmentation Grenades" 47
