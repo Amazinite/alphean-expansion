@@ -13,4 +13,5 @@ outfit "Korath Crew Member"
 	thumbnail "outfit/unknown"
 	"capture defense" 3.5
 	"capture attack" 3.5
+	unplunderable 1
 	description "The Korath are very violent against their attackers."
