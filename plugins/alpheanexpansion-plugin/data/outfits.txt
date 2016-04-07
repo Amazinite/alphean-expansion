@@ -137,6 +137,7 @@ outfit "S-45 Lamprey"
 	"outfit space" -2
 	"capture attack" 1
 	"capture defense" 2
+	unplunderable 1
 	description "A more defence based guard bot, it is used mostly in freighters."
 
 outfit "R-120 Warbird"
@@ -146,6 +147,7 @@ outfit "R-120 Warbird"
 	"outfit space" -7
 	"capture attack" 5.2
 	"capture defense" 2.6
+	unplunderable 1
 	description "The Republic Navy uses this model of boarding bots for boarding pirates or capturing other enemy ships."
 
 outfit "Sentry Gun"
@@ -155,6 +157,7 @@ outfit "Sentry Gun"
 	"mass" 4
 	"outfit space" -4
 	"capture defense" 7
+	unplunderable 1
 	description "This model of sentry guns may be the best ship defense money can buy."
 
 outfit "P-75 Archangel"
@@ -164,6 +167,7 @@ outfit "P-75 Archangel"
 	"outfit space" -10
 	"capture attack" 4.3
 	"capture defense" 8.5
+	unplunderable 1
 	description "A true defence bot. This model created by the Penum used organic materials to grant it its defensive capabilities. It can take damage and do the same to the opposition."
 		
 outfit "Engineer Bot"
@@ -174,6 +178,7 @@ outfit "Engineer Bot"
 	"energy generation" 0.3
 	"shield generation" 0.1
     "shield energy" 1
+	unplunderable 1
 	description "An AI card which can be inserted into an android. This converts it into an engineer bot."
 	
 outfit "Repair Bot"
@@ -183,6 +188,7 @@ outfit "Repair Bot"
 	"outfit space" -1
 	"hull repair rate" 0.2
     "hull energy" 1
+	unplunderable 1
 	description "An AI card which can be inserted into an android. This converts it into a repair bot."
 	
 outfit "AI Mainframe"
@@ -201,6 +207,7 @@ outfit "Crew Card"
 	thumbnail "outfit/unknown"
 	"crew card capacity" -1
 	"required crew" -1
+	unplunderable 1
 	description "A crew AI card used by AI Mainframes."
 
 outfit "Penum Surveillance Pod"
@@ -287,6 +294,7 @@ outfit "Capital Identification"
 	cost 10
 	thumbnail "outfit/unknown"
 	"identification" 1
+	unplunderable 1
 	description "Identifies you ship as a capital in the ship registry."
 	
 outfit "S3NTAR Ship Core"
@@ -439,6 +447,7 @@ outfit "Special Agent"
 	"required crew" 1
 	"capture attack" 6
 	"capture defense" 6
+	unplunderable 1
 	description "A specially trained agent for boarding ships. They use a personal cloaking device to infiltrate the enemy ship and take out important targets."
 
 outfit "SC15s Shield Capacitor"
@@ -504,6 +513,7 @@ outfit "Pillager Bolt-on Cockpit"
 	"heat generation" 3
 	"hull" -700
 	"bunks" 10
+	unplunderable 1
 	description "For the captain who needs more outfit space and does not particularily care about their mass and hull strength."
 	description "The Pillager Bolt-on Cockpit is a used Heavy Shuttle renovated and modified to be bolted onto a ship. Security systems installed make it so that it has less outfit space than the Heavy Shuttle itself."
 	
