@@ -59,4 +59,5 @@ outfit "Wanderer Crew Member"
 	thumbnail "outfit/unknown"
 	"capture attack" 0.5
 	"capture defense" 0.5
+	unplunderable 1
 	description "A Wanderer crew member. Slightly stronger than humans."

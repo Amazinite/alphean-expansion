@@ -16,6 +16,7 @@ outfit "Weapon Specialization"
 	"outfit space" -10
 	"weapon capacity" 20
 	"energy generation" -0.5
+	unplunderable 1
 	description "Converts regular outfit space into weapon outfit space. Requires more energy to make sure that all functions are operational."
 
 outfit "Engine Specialization"
@@ -26,6 +27,7 @@ outfit "Engine Specialization"
 	"outfit space" -10
 	"engine capacity" 20
 	"heat generation" 2
+	unplunderable 1
 	description "Converts regular outfit space into engine outfit space. Increases likelihood of overheating."
 
 outfit "XF-111 Ship Core"
@@ -316,6 +318,7 @@ outfit "S3NTAR Defensive Countermeasures"
 outfit "Crew Raiser"
 	category "Special"
 	"required crew" 5
+	unplunderable 1
 	description "Makes your ship require more crew, thus making its defense better."
 	
 outfit "Meteor Missile Depot"
@@ -523,6 +526,7 @@ outfit "MEGA Safety Unlock"
     mass 50
     "megaship capacity" 100
     "safety unlock" 1
+	unplunderable 1
     description "Megaships have their turret mounts and gun ports protected by a special safety code. To unlock it, a safety unlock has to be installed allowing one mega weapon per unlock."
     
 outfit "MEGA Shield Module"

@@ -191,4 +191,5 @@ outfit "Hai Crew Member"
 	thumbnail "outfit/unknown"
 	"capture attack" 0.3
 	"capture defense" 0.3
+	unplunderable 1
 	description "A Hai crew member. Slightly stronger than humans."
