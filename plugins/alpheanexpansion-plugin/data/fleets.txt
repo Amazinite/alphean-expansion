@@ -222,63 +222,6 @@ fleet "Jump Core Merchants"
 		"Bulk Freighter (Jump)" 2
 		"Protector (Jump)" 1
 		
-fleet "Penum Surveillance"
-	government Penum
-	names "penum surveillance"
-	personality
-		disables heroic surveillance
-	variant 35
-		"Falcon (Surveillance)" 2
-	variant 35
-		"Falcon (Heavy Surveillance)"
-		"Aerie (Drone)(Surveillance)"
-		"Hunter Drone (Stock)" 4
-	variant 5
-		"Falcon (Heavy Surveillance)" 2
-		
-fleet "Penum Defence"
-	government Penum
-	names "penum defence"
-	personality
-		disables heroic
-	variant 45
-		"Splinter (Laser)" 3
-		"Aerie (Drone)" 2
-		"Hunter Drone (Meteor" 8
-	variant 30
-		"Falcon (Laser)"
-		"Falcon (Heavy)"
-		"Quicksilver (Proton)" 2
-	variant 10
-		"Falcon (Heavy Surveillance)"
-		"Splinter (Laser)"
-	variant 5
-		"Protector (Laser)" 2
-		"Falcon (Laser)"
-	variant 1
-		"Falcon (Heavy Surveillance)" 3
-	variant 1
-		"Protector (Laser)"
-		"Falcon (Heavy)" 3
-		"Aerie (Drone)" 2
-		"Hunter Drone (Stock)" 4
-		"Hunter Drone (Meteor)" 4
-		
-fleet "Penum Colonization"
-	government "Penum"
-	names "civilian"
-	cargo 4
-	personality
-		confusion 20
-		timid frugal
-	variant
-		"Splinter (Laser)" 4
-		"Bulk Freighter" 3
-		"Falcon (Heavy Surveillance)" 2
-		"Aerie (Drone)"
-		"Hunter Drone (Stock)" 2
-		"Hunter Drone (Meteor)" 2
-		
 #For convoy escort jobs
 fleet "Southern Convoy"
 	government "Merchant"
@@ -343,48 +286,7 @@ fleet "Large Core Pirates"
 		"Mod Firebird (Stock)" 2
 		"Spearhead (Stock)"
 		"Splinter"
-        
-#Union		
-fleet "Small Union"
-	government Union
-	names "union capital"
-	fighters "union fighter"
-	personality
-		plunders heroic
-	variant
-		"Thorn (Heavy)"
-		"Horn (Blaster)"
-		"Thorn (Support)"
-		"Horn (Stock)"
-
-fleet "Large Union"
-	government Union
-	names "union capital"
-	fighters "union fighter"
-	personality
-		plunders heroic
-	variant
-		"Thorn (Stock)" 2
-		"Horn (Stock)" 3
-		"Thorn (Support)"
-		"Thorn (Heavy)"
-		"Horn (Blaster)"
-		"Horn (Stock)" 3
-		
-fleet "Union Invasion Fleet"
-	government Union
-	names "union capital"
-	fighters "union fighter"
-	personality
-		heroic forebearing plunders
-	variant
-		"Thorn (Stock)" 2
-		"Horn (Blaster)" 4
-		"Thorn (Support)" 2
-		"Thorn (Heavy)" 5
-		"Horn (Stock)" 5
-		"Mod Firebird (Thrower)" 3
-		
+        		
 #Sentar Galaxy
 fleet "Sentar S"
 	government Sentarians

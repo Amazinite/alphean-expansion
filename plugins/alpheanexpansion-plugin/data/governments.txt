@@ -26,35 +26,6 @@ government "Takarada Kaneo"
 		Merchant .1
 		"Alphean Boolean" -.1
 
-government Union
-	swizzle 3
-	color .26 .17 .18
-	"player reputation" -1000
-	"attitude toward"
-		Syndicate -.1
-		"Pirate (Core)" .1
-		"Pirate (North)" .1
-	bribe 0.02
-	fine 0
-	"friendly hail" "friendly hail"
-	"hostile hail" "hostile union"
-		
-government Penum
-	swizzle 6
-	color .78 .36 .36
-	"player reputation" 100
-	"attitude toward"
-		Korath -.1
-		Syndicate .1
-		Republic -.1
-		"Pirate (Core)" -.1
-		Quarg .1
-		Sentarians -.1
-	bribe .05
-	fine 0
-	"friendly hail" "friendly penum"
-	"hostile hail" "hostile penum"
-
 government Wormhole
 	color .18 .03 .33
 	bribe 0
@@ -64,26 +35,6 @@ government "Sentarians"
 	swizzle 0
 	color 0 .41 .71
 	"player reputation" -10000
-	"attitude toward"
-		"Merchant" -.1
-		"Syndicate" -.1
-		"Syndicate (Extremist)" -.1
-		"Republic" -.1
-		"Navy (Oathkeeper)" -.1
-		"Navy Intelligence" -.1
-		"Free Worlds" -.1
-		"Militia" -.1
-		"Penum" -.1
-		"Union" -.1
-		"Neutral" -.1
-		"Pirate" -.1
-		"Independent" -.1
-		"Hai" -.1
-		"Hai (Unfettered)" -.1
-		"Korath" -.1
-		"Quarg" -.1
-		"Pug" -.1
-		"Wanderer" -.1
 	"bribe" 0
 	raid "Sentar L"
 	

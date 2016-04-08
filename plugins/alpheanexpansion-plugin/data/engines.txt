@@ -33,7 +33,7 @@ outfit "HEAP-800 Breacher Steering"
 	"turn" 3257
 	"turning energy" 0.6
 	"turning heat" 1.2
-	description "A fairly medium steering system used only on Union Capitals."
+	description "A fairly medium steering system used only on Fed Capitals."
 
 outfit "AP-7 Argentum Thruster"
 	category "Engines"

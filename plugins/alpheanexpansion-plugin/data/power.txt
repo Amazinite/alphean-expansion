@@ -57,7 +57,7 @@ outfit "ZZZ-999 Sunburn"
 	"energy generation" 50
 	"heat generation" 180
 	"capture defense" 1.1
-	description "The most powerful reactor known by humans, this reactor generates so much heat, that it glows like a sun. Any attempt to reverse engineer this will not work, the secret of it generating so much energy (and heat) is guarded by a built in defence mechanism."
+	description "The most powerful reactor known to humans, this reactor generates so much heat, that it glows like a sun. Any attempt to reverse engineer this will not work, the secret of it generating so much energy (and heat) is guarded by a built in defence mechanism."
 
 outfit "S3NTAR Reactor"
 	category "Power"
@@ -65,5 +65,5 @@ outfit "S3NTAR Reactor"
 	"mass" 300
 	"outfit space" -300
 	"energy generation" 75
-	description "The almighty Sentarian Reactor. It takes up so much space, that on ships, that aren't Sentarian, it has no practical use."
+	description "The almighty Sentarian Reactor. It takes up so much space, that on ships that aren't Sentarian, it has no practical use."
 	description "A station might be able to use though..."

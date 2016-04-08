@@ -229,7 +229,7 @@ outfit "AR-S Fuelscoop"
 	"mass" 7
 	"outfit space" -7
 	"ramscoop" 1
-	description "A very small Ramscoop, used only by the Horn model Fighters found in Union fleets."
+	description "A very small Ramscoop, used only by the Horn model Fighters found in Fed fleets."
 
 outfit "AR-X Capital Ramscoop"
 	category "Systems"
@@ -238,7 +238,7 @@ outfit "AR-X Capital Ramscoop"
 	"mass" 50
 	"outfit space" -50
 	"ramscoop" 14
-	description "The Union has many ships filled with equipment to keep the ship running. This leaves little room for fuel and as such they use these Capital Ramscoops."
+	description "The Fed has many ships filled with equipment to keep the ship running. This leaves little room for fuel and as such they use these Capital Ramscoops."
 	
 outfit "SF-2 Thorn Shield Generator"
 	category "Systems"
@@ -269,7 +269,7 @@ outfit "HN-7 Thorn Coolant System"
 	"mass" 70
 	"outfit space" -70
 	"cooling" 150
-	description "The cooling system used by Union Thorn Carriers. You have no idea how it works."
+	description "The cooling system used by Fed Thorn Carriers. You have no idea how it works."
 	
 outfit "Navy Cloaking Device"
 	category "Systems"
@@ -313,6 +313,7 @@ outfit "S3NTAR Defensive Countermeasures"
 	category "Hand to Hand"
 	thumbnail "outfit/unknown"
 	"capture defense" 750
+	unplunderable 1
 	description "Can you beat the Sentarians in a hand to hand battle?"
 	
 outfit "Crew Raiser"
