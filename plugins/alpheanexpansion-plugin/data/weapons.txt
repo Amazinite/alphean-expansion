@@ -280,7 +280,7 @@ outfit "Nebulon Residue"
 		sprite "projectile/nebulon residue"
 			"frame rate" 1.5
 			"random start frame"
-		"lifetime" 6000
+		"lifetime" 800
 		"hit effect" "jump drive"
 		"shield damage" 40
 		"hull damage" 40
@@ -290,6 +290,36 @@ outfit "Nebulon Residue"
 		"drag" .0001
 		"velocity" -250
 		
+outfit "Devastator Turret"
+	category "Turrets"
+	thumbnail "outfit/unknown"
+	"mass" 140
+	"outfit space" -140
+	"weapon capacity" -140
+	"turret mounts" -1
+	weapon
+		sprite "projectile/tbd"
+			"no repeat"
+			"frame rate" .25
+		sound "typhoon"
+		icon "icon/tbd"
+		"hit effect" "nuke explosion" 5
+		"die effect" "tbd"
+		"inaccuracy" 3
+		"velocity" 8
+		"lifetime" 800
+		"reload" 5
+		"acceleration" .8
+		"drag" .1
+		"turn" 10
+		"homing" 4
+		"trigger radius" 5
+		"blast radius" 50
+		"shield damage" 9000
+		"hull damage" 7000
+		"hit force" 2000
+	description "A devastating weapon of Sentarian origin."
+
 outfit "Grenade Launcher" #Thanks, Michael Feather!
 	category "Secondary Weapons"
 	cost 80000

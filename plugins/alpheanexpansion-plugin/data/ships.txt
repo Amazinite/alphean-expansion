@@ -537,7 +537,8 @@ ship "Erebus"
 		"engine capacity" 350
 		"identification" -1
 	outfits
-		"Nebulon Beam Turret" 9
+		"Nebulon Beam Turret" 5
+        "Devastator Turret" 4
 		"Nebulon Beam" 5
 		"S3NTAR Reactor"
 		"Capital Identification"
@@ -556,14 +557,14 @@ ship "Erebus"
 	gun 20 -120 "Nebulon Beam"
 	gun -20 -120 "Nebulon Beam"
 	turret 0 -7 "Nebulon Beam Turret"
-	turret 70.5 55.5 "Nebulon Beam Turret"
-	turret -70.5 55.5
-	turret 0 7
-	turret 70.5 25
-	turret -70.5 25
-	turret 0 20
-	turret 35 55.5
-	turret -35 55.5
+	turret 70.5 55.5 "Devastator Turret"
+	turret -70.5 55.5 "Devastator Turret"
+	turret 0 7 "Nebulon Beam Turret"
+	turret 70.5 25 "Nebulon Beam Turret"
+	turret -70.5 25 "Nebulon Beam Turret"
+	turret 0 20 "Nebulon Beam Turret"
+	turret 35 55.5 "Devastator Turret"
+	turret -35 55.5 "Devastator Turret"
 	explode "jump die" 1750
 	explode "jump die sound"
 	description "The main Sentarian fighting force."
