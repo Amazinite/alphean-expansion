@@ -21,6 +21,7 @@ ship "Hunter Drone"
 		"outfit space" 120
 		"weapon capacity" 14
 		"engine capacity" 47
+        automaton 1
 		weapon
 			"blast radius" 16
 			"shield damage" 160
@@ -582,6 +583,7 @@ ship "Unknown Drone"
 		"fuel capacity" 300
 		"outfit space" 59
 		"engine capacity" 26
+        automaton 1
 	outfits
 		"Small Biochemical Cell"
 		"Type 1 Radiant Thruster"
@@ -819,3 +821,27 @@ ship "Megaship MMMXV"
 	explode "big explosion" 70
 	explode "huge explosion" 25
     description "Megaship. Not buyable yet."
+    
+ship "Auto-Scout"
+    sprite "ship/surveillance drone"
+    attributes
+        category "Interceptor"
+        cost 500000
+        automaton 1
+        shields 1250
+        hull 500
+        mass 10
+        drag 0.43
+        "heat dissipation" 0.75
+        "fuel capacity" 2000
+        turn 240
+        thrust 1.5
+        "outfit space" 8
+        "weapon  capacity" 8
+        "energy generation" 5
+        "shield generation" 0.15
+        "shield energy" 0.3
+    outfits
+        "Beam Laser"
+    gun 0 0
+    description "An automated scout armed with a basic beam laser."
