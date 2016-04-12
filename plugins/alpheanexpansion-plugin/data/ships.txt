@@ -199,8 +199,6 @@ ship "Spearhead"
 
 ship "Horn"
 	sprite "ship/horn"
-	licenses
-		Union
 	attributes
 		category "Fighter"
 		"cost" 480000
@@ -221,7 +219,7 @@ ship "Horn"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Union Blaster" 2
+		"Fed Blaster" 2
 		"Horn Flamethrower" 2
 		"PR-600 Reactor"
 		"AR-S Fuelscoop"
@@ -237,12 +235,10 @@ ship "Horn"
 	gun -26 -25.5 "Horn Flamethrower"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The Horn is the main fighter force of the Union."
+	description "The Horn is the fighter specially designed for the Thorn."
 	
 ship "Thorn"
 	sprite "ship/thorn" #Thanks, Matthew Smestad!
-	licenses
-		Union
 	attributes
 		category "Heavy Warship"
 		"cost" 4372000
@@ -265,7 +261,7 @@ ship "Thorn"
 			"hull damage" 1300
 			"hit force" 3900
 	outfits
-		"Union Blaster" 6
+		"Fed Blaster" 6
 		"Khorne Rocket Turret" 3
 		"Khorne Rocket" 120
 		"Heavy Anti-Missile Turret"
@@ -298,7 +294,7 @@ ship "Thorn"
 	explode "medium explosion" 50
 	explode "big explosion" 40
 	explode "huge explosion" 10
-	description "The Thorn is a the main ship of the Union. It is made up of parts of a Navy Carrier and Cruiser."
+	description "The Thorn is the main command ship of the Federation. It is made up of parts of a Navy Carrier and Cruiser."
 
 ship "Stealth Cruiser"
 	sprite "ship/osprey"
@@ -538,8 +534,7 @@ ship "Erebus"
 		"engine capacity" 350
 		"identification" -1
 	outfits
-		"Nebulon Beam Turret" 5
-        "Devastator Turret" 4
+		"Nebulon Beam Turret" 9
 		"Nebulon Beam" 5
 		"S3NTAR Reactor"
 		"Capital Identification"
@@ -552,20 +547,20 @@ ship "Erebus"
 
 	engine 61.5 125
 	engine -61.5 125
-	gun 0 -100 "Nebulon Beam"
-	gun 15 -130 "Nebulon Beam"
-	gun -15 -130 "Nebulon Beam"
-	gun 20 -120 "Nebulon Beam"
-	gun -20 -120 "Nebulon Beam"
-	turret 0 -7 "Nebulon Beam Turret"
-	turret 70.5 55.5 "Devastator Turret"
-	turret -70.5 55.5 "Devastator Turret"
-	turret 0 7 "Nebulon Beam Turret"
-	turret 70.5 25 "Nebulon Beam Turret"
-	turret -70.5 25 "Nebulon Beam Turret"
-	turret 0 20 "Nebulon Beam Turret"
-	turret 35 55.5 "Devastator Turret"
-	turret -35 55.5 "Devastator Turret"
+	gun 0 -100
+	gun 15 -130
+	gun -15 -130
+	gun 20 -120
+	gun -20 -120
+	turret 0 -7
+	turret 70.5 55.5
+	turret -70.5 55.5
+	turret 0 7
+	turret 70.5 25
+	turret -70.5 25
+	turret 0 20
+	turret 35 55.5
+	turret -35 55.5
 	explode "jump die" 1750
 	explode "jump die sound"
 	description "The main Sentarian fighting force."

@@ -212,7 +212,7 @@ outfit "Crew Card"
 	unplunderable 1
 	description "A crew AI card used by AI Mainframes."
 
-outfit "Penum Surveillance Pod"
+outfit "Fed Surveillance Pod"
 	category "Systems"
 	cost 42000
 	thumbnail "outfits/outfit scanner"
@@ -220,7 +220,7 @@ outfit "Penum Surveillance Pod"
 	"outfit space" -5
 	"cargo scan" 500
 	"outfit scan" 500
-	description "A Republic Surveillance Pod modified by Eyes In The Sky Corporation. Eyes In The Sky Corporation also goes over controlling the Penum Surveillance fleets."
+	description "A Republic Surveillance Pod modified by Eyes In The Sky Corporation."
 	
 outfit "AR-S Fuelscoop"
 	category "Systems"
