@@ -463,8 +463,6 @@ ship "Therum"
 	description "A prototype heavy interceptor, it carries 2 Meteor Missile Launchers and a newly developed Energy Chaingun to swiftly take care of enemies."
 
 ship "Gnosis Transport"
-	licenses
-		Syndicate
 	sprite "ship/syndicarrier"
 	attributes
 		category "Transport"
@@ -708,73 +706,6 @@ ship "Goose"  #Thanks, Michael Feather!
 	description "An experimental ship designed for carrying the newly developed Grenade Launchers."
 	description "Though it is made from scrap parts, it packs quite a punch and can take a hit."
 	
-ship "Capitalis Viatoris Unleashed"
-	"never disabled"
-	licenses
-		"Tarazed"
-	sprite "ship/capitalis viatoris unleashed"
-	attributes
-		category "Heavy Warship"
-		"cost" 65200000
-		"shields" 61200
-		"hull" 13900
-		"required crew" 71
-		"bunks" 573
-		"mass" 4305
-		"drag" 47.6
-		"heat dissipation" .45
-		"fuel capacity" 900
-		"cargo space" 125
-		"outfit space" 2120
-		"weapon capacity" 430
-		"engine capacity" 440
-		"identification" -1
-		weapon
-			"blast radius" 700
-			"shield damage" 14000
-			"hull damage" 7200
-			"hit force" 11200
-	outfits
-		"Energy Chaingun X" 4
-		"Quad Blaster Turret" 12
-		
-		"Armageddon Core" 3
-		"LP576a Battery Pack" 2
-		"D94-YV Shield Generator" 4
-		"Liquid Helium Cooler" 4
-		"Catalytic Ramscoop" 2
-		
-		"A860 Atomic Thruster" 2
-		"A865 Atomic Steering" 2
-		"Jump Drive"
-		
-		"Capital Identification"
-		
-	engine -32 285.5
-	engine 32 285.5
-	turret -30.5 -46
-	turret -34.5 0
-	turret -34 32
-	turret -34 64.5
-	turret -110.5 80
-	turret -23 195
-	turret 30.5 -46
-	turret 34.5 0
-	turret 34 32
-	turret 34 64.5
-	turret 110.5 80
-	turret 23 195
-	gun -32 -176.5
-	gun -32 -176
-	gun 32 -176.5
-	gun 32 -176
-	explode "tiny explosion" 15
-	explode "small explosion" 35
-	explode "medium explosion" 50
-	explode "big explosion" 70
-	explode "huge explosion" 25
-	description "Planned storyline ship, tell me how you got this in the first place."
-
 ship "Megaship MMMXV"
 	sprite "ship/megaship"
 	attributes

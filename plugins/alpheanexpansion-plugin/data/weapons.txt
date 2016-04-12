@@ -373,25 +373,3 @@ outfit "Rail Slug"
 	thumbnail "outfit/hai tracker"
 	"slug capacity" -1
 	description "The expensive slugs launched by the Rail Cannon."
-	
-outfit "Energy Chaingun X"
-	category "Guns"
-	cost 116000
-	thumbnail "outfit/unknown"
-	"mass" 30
-	"outfit space" -30
-	"weapon capacity" -30
-	"gun ports" -1
-	weapon
-		sprite "projectile/blaster"
-		sound "blaster"
-		"hit effect" "blaster impact"
-		"inaccuracy" 3
-		"velocity" 7
-		"lifetime" 60
-		"reload" 1.4
-		"firing energy" 3
-		"firing heat" 23
-		"shield damage" 15
-		"hull damage" 15
-	description "Tell me how you got this, it's a story weapon."
