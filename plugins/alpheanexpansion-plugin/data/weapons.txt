@@ -373,3 +373,24 @@ outfit "Rail Slug"
 	thumbnail "outfit/hai tracker"
 	"slug capacity" -1
 	description "The expensive slugs launched by the Rail Cannon."
+
+outfit "Anti-Ship Battery"
+    category "Turrets"
+    cost 1000000
+    thumbnail "outfit/asb"
+	weapon
+		sprite "projectile/asb"
+			"frame rate" 10
+		sound "typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "big explosion"
+		"inaccuracy" 4
+		"velocity" 150
+		"lifetime" 400
+		"reload" 6
+		"firing energy" 10000
+		"firing heat" 7000
+		"shield damage" 7000
+		"hull damage" 7000
+		"hit force" 500
+    description "An advanced turret designed specifically to destroy large ships. Its damaging capabilites make it impossible to pinpoint a target and demands a lot of power as well as creating a lot of heat."
