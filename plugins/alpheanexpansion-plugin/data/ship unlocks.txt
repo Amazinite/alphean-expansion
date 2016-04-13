@@ -8,7 +8,7 @@ event "stealth cruiser"
 mission "stealth cruiser"
 	landing
 	source
-		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate (South)" "Pirate (Core)" "Pirate (North)"
+		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
 	to offer
 		has "event: stealth cruiser"
 	on offer
@@ -21,7 +21,7 @@ mission "stealth cruiser"
 mission "stealth cruiser mark ii"
 	landing
 	source
-		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate (South)" "Pirate (Core)" "Pirate (North)"
+		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
 	to offer
 		has "event: stealth cruiser"
 		has "event: navy using mark ii ships"
@@ -141,7 +141,7 @@ event "kriegsmacher"
 mission "kriegsmacher"
 	landing
 	source
-		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate (South)" "Pirate (Core)" "Pirate (North)"
+		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
 	to offer
 		has "event: kriegsmacher"
 	on offer
@@ -159,7 +159,7 @@ event "capitalis viatoris"
 mission "capitalis viatoris"
 	landing
 	source
-		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate (South)" "Pirate (Core)" "Pirate (North)"
+		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
 	to offer
 		has "event: fw gets catalytic ramscoop"
 		has "event: pug invasion 3"
@@ -177,7 +177,7 @@ mission "Max Combat Rating License"
 	name "License"
 	description "License."
 	source
-		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate (South)" "Pirate (Core)" "Pirate (North)"
+		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
 	to offer
 		"combat rating" >= 1202878
 	on offer
