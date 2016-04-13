@@ -48,6 +48,21 @@ event "deep sky tech available"
 	outfitter "Deep Sky Advanced"
 		"Typhoon Supply Depot"
         
+mission "Founderation"
+    name "FedFound"
+    description "BUG YOU SHOULDN'T SEE THIS"
+    source
+		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
+    to offer
+        has "free worlds plot completed"
+    on offer
+        event "fed founded"
+        conversation
+            `You arrive at the spaceport, looking for jobs only to find that there's a crowd gathered around the news screens.`
+            `The screens show footage of a group of individuals speaking about how they declare themselves the Federation`
+            `The news reporter's voice can be heard; "The individuals seem to have declared that they are taking control of several Syndicate systems."`
+            `You can't help but think about what happened when the Free Worlds founded. You can only hope that this will go differently.`
+            
 event "fed founded"
     system Ruchbah
         government "Federation"
