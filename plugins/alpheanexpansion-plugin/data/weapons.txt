@@ -387,8 +387,8 @@ outfit "Anti-Ship Battery"
 		"inaccuracy" 4
 		"velocity" 150
 		"lifetime" 400
-		"reload" 6
-		"firing energy" 10000
+		"reload" 66
+		"firing energy" 2300
 		"firing heat" 7000
 		"shield damage" 7000
 		"hull damage" 7000
