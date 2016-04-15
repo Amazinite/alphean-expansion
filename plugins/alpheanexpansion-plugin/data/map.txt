@@ -232,10 +232,10 @@ system Oblate
 
 galaxy "Sentar Galaxy"
 	pos 16661.9 -28367.4
-	sprite ui/galaxy
+	sprite ui/sentar
 
 system Center
-	pos 16773.9 -28344.4
+	pos 16663.9 -28404.4
 	government Sentarians
 	habitable 2201.68
 	link "Eden Prime"
@@ -270,7 +270,7 @@ system Center
 		period 1278.21
 
 system "Eden Prime"
-	pos 16800.1 -28293
+	pos 16696.1 -28326
 	government Sentarians
 	habitable 425.92
 	link Center
@@ -334,7 +334,7 @@ system "Eden Prime"
 			period 22.5711
 
 system Ernogi
-	pos 16714.9 -28487.6
+	pos 16670.9 -28524.6
 	government Erufiams
 	habitable 625
 	link Hashin
@@ -384,7 +384,7 @@ system Ernogi
 		period 2223.91
 
 system Gard
-	pos 16741.9 -28549.6
+	pos 16708.9 -28539.6
 	government Erufiams
 	habitable 320
 	link Heim
@@ -439,7 +439,7 @@ system Gard
 			period 28.8188
 
 system Hashin
-	pos 16713.9 -28453.6
+	pos 16637.9 -28505.6
 	government Erufiams
 	habitable 486.68
 	link Ernogi
@@ -496,7 +496,7 @@ system Hashin
 		period 1914.84
 
 system Heim
-	pos 16750.9 -28515.6
+	pos 16711.9 -28498.6
 	government Erufiams
 	habitable 1715
 	link Ernogi
@@ -553,7 +553,7 @@ system Heim
 			period 19.0094
 
 system Kioniam
-	pos 16831.9 -28407.4
+	pos 16786.9 -28393.4
 	government Sentarians
 	habitable 1715
 	link Pniam
@@ -610,7 +610,7 @@ system Kioniam
 			offset 235.798
 
 system Nelur
-	pos 16703.1 -28350
+	pos 16594.1 -28358
 	government Sentarians
 	habitable 486.68
 	link "New Eden"
@@ -675,7 +675,7 @@ system Nelur
 			period 35.9557
 
 system "New Eden"
-	pos 16710.1 -28306
+	pos 16594.1 -28333
 	government Sentarians
 	habitable 135
 	link "Eden Prime"
@@ -738,7 +738,7 @@ system "New Eden"
 			period 17.5289
 
 system Nyx
-	pos 16681.1 -28381
+	pos 16527.1 -28420
 	government Sentarians
 	habitable 320
 	link Nelur
@@ -800,7 +800,7 @@ system Nyx
 			period 29.2569
 
 system Ophernus
-	pos 16700.9 -28423.4
+	pos 16565.9 -28489.4
 	government Sentarians
 	habitable 1566.68
 	link Pniam
@@ -869,7 +869,7 @@ system Ophernus
 			period 18.1302
 
 system Pniam
-	pos 16709.1 -28404
+	pos 16571.1 -28426
 	government Sentarians
 	habitable 760
 	link Nyx
@@ -942,7 +942,7 @@ system Pniam
 			period 44.2973
 
 system Rokh
-	pos 16780.9 -28540.6
+	pos 16764.9 -28514.6
 	government Erufiams
 	habitable 1080
 	link Heim
@@ -995,7 +995,7 @@ system Rokh
 			period 40.251
 
 system Svartal
-	pos 16756.9 -28574.6
+	pos 16751.9 -28560.6
 	government Erufiams
 	habitable 486.68
 	link Gard
@@ -1048,7 +1048,7 @@ system Svartal
 			period 15.9044
 
 system Turnelar
-	pos 16756.9 -28434.4
+	pos 16655.9 -28471.4
 	government Sentarians
 	habitable 3645
 	link Pniam
@@ -1207,3 +1207,4 @@ planet Ztewgf
 	"required reputation" 0
 	bribe 0
 	security 0
+
