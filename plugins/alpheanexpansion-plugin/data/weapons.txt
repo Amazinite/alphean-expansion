@@ -420,7 +420,7 @@ outfit "EMP Bomb Launcher"
 		"submunition" "ion pulse" 65
 		"die effect" "missile death"
 		"inaccuracy" 0.1
-		"lifetime" 500
+		"lifetime" 50
 		"reload" 60
 		"firing energy" 53
 		"firing heat" 27
