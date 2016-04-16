@@ -435,4 +435,4 @@ outfit "ion pulse"
 		"inaccuracy" 2000
 		velocity 10
 		"lifetime" 60
-		"ion damage" 10
+		"ion damage" 25
