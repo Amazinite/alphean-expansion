@@ -394,3 +394,45 @@ outfit "Anti-Ship Battery"
 		"hull damage" 7000
 		"hit force" 500
     description "An advanced turret designed specifically to destroy large ships. Its damaging capabilites make it impossible to pinpoint a target and demands a lot of power as well as creating a lot of heat."
+	
+outfit "EMP Bomb"
+	category "Ammunition"
+	cost 8000
+	thumbnail "outfit/emp bomb"
+	"empbomb capacity" -1
+	description "EMP Bombs designed to overload electical systems."
+	
+outfit "EMP Bomb Launcher"
+	category "Secondary Weapons"
+	cost 650000
+	thumbnail "outfit/emp bomb launcher"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"empbomb capacity" 15
+	weapon
+		sprite "projectile/asb"
+			"frame rate" 60
+		sound "torpedo"
+		ammo "EMP Bomb"
+		icon "icon/torpedo"
+		"submunition" "ion pulse" 65
+		"die effect" "missile death"
+		"inaccuracy" 0.1
+		"lifetime" 500
+		"reload" 60
+		"firing energy" 53
+		"firing heat" 27
+		"shield damage" 200
+		"ion damage" 650
+	description "The EMP Bomb Launcher launches an EMP Bomb designed to fry systems. It has a decently long range."
+	
+outfit "ion pulse"
+	weapon
+		sprite "projectile/asb"
+			"frame rate" .1
+		"inaccuracy" 2000
+		velocity 10
+		"lifetime" 60
+		"ion damage" 10
