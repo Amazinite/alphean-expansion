@@ -18,8 +18,8 @@ ship "Hunter Drone"
 		"mass" 45
 		"drag" 1.0
 		"heat dissipation" .8
-		"outfit space" 120
-		"weapon capacity" 14
+		"outfit space" 140
+		"weapon capacity" 30
 		"engine capacity" 47
         automaton 1
 		weapon
