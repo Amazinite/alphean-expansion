@@ -52,7 +52,8 @@ mission "Founderation"
     name "FedFound"
     description "BUG YOU SHOULDN'T SEE THIS"
     source
-		government "Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
+		government
+			"Republic" "Free Worlds" "Neutral" "Syndicate" "Quarg" "Hai" "Pirate" "Federation"
     to offer
         has "free worlds plot completed"
     on offer
