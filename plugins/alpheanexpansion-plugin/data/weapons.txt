@@ -436,3 +436,77 @@ outfit "ion pulse"
 		velocity 10
 		"lifetime" 60
 		"ion damage" 25
+		
+outfit "Pulse EMP Bomb Launcher"
+	category "Secondary Weapons"
+	cost 650000
+	thumbnail "outfit/emp bomb launcher"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"gun ports" -1
+	"empbomb capacity" 35
+	weapon
+		sprite "projectile/asb"
+			"frame rate" 60
+		sound "torpedo"
+		ammo "EMP Bomb"
+		icon "icon/torpedo"
+		"submunition" "ion pulse" 65
+		submunition "pulse first"
+		"die effect" "missile death"
+		"inaccuracy" 0.1
+		"lifetime" 50
+		"reload" 60
+		"firing energy" 53
+		"firing heat" 27
+		"shield damage" 200
+		"ion damage" 650
+	description "A specially developed EMP Bomb Launcher that pulses 4 times."
+	
+outfit "ion pulse"
+	weapon
+		sprite "projectile/asb"
+			"frame rate" .1
+		"inaccuracy" 2000
+		velocity 10
+		"lifetime" 60
+		"ion damage" 25
+
+outfit "pulse first"
+	weapon
+		sprite "projectile/asb"
+			"frame rate" .1
+		sound "torpedo"
+		"submunition" "ion pulse" 65
+		submunition "pulse second"
+		"die effect" "missile death"
+		"inaccuracy" 0.1
+		"lifetime" 0
+		"shield damage" 200
+		"ion damage" 650
+		
+outfit "pulse second"
+	weapon
+		sprite "projectile/asb"
+			"frame rate" .1
+		sound "torpedo"
+		"submunition" "ion pulse" 65
+		submunition "pulse final"
+		"die effect" "missile death"
+		"inaccuracy" 0.1
+		"lifetime" 0
+		"shield damage" 200
+		"ion damage" 650
+		
+outfit "pulse final"
+	weapon
+		sprite "projectile/asb"
+			"frame rate" .1
+		sound "torpedo"
+		"submunition" "ion pulse" 65
+		"die effect" "missile death"
+		"inaccuracy" 0.1
+		"lifetime" 0
+		"shield damage" 200
+		"ion damage" 650
