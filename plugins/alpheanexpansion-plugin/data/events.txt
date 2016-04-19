@@ -67,40 +67,13 @@ mission "Founderation"
 event "fed founded"
     system Ruchbah
         government "Federation"
-        fleet "Small Core Merchants" 500
-	    fleet "Large Core Merchants" 600
-	    fleet "Small Fed" 1000
-	    fleet "Large Fed" 2000
-	    fleet "Small Core Pirates" 2000
-	    fleet "Large Core Pirates" 3000
     system Sheratan
         government "Federation"
     system Algol
         government "Federation"
-        fleet "Small Core Merchants" 1600
-	    fleet "Large Core Merchants" 4000
-	    fleet "Small Core Pirates" 1800
-	    fleet "Large Core Pirates" 5000
-	    fleet "Small Fed" 2400
     system "Alpha Hydri"
         government "Federation"
-        fleet "Small Core Merchants" 900
-	    fleet "Large Core Merchants" 3000
-	    fleet "Small Core Pirates" 2000
-	    fleet "Large Core Pirates" 6000
-	    fleet "Small Fed" 4000
-	    fleet "Large Fed" 9000
-	    fleet "Korath Raid" 40000
     system Ankaa
         government "Federation"
-    	fleet "Small Core Merchants" 600
-	    fleet "Large Core Merchants" 700
-	    fleet "Small Fed" 900
-	    fleet "Large Core Pirates" 4000
     system Hamal
         government "Federation"
-    	fleet "Small Core Merchants" 1000
-	    fleet "Large Core Merchants" 1000
-        fleet "Small Core Pirates" 3000
-	    fleet "Large Core Pirates" 8000
-	    fleet "Small Fed" 4000
