@@ -61,3 +61,10 @@ government "Federation"
         Merchant .1
         Pirate -.1
         Sentarians -.1
+		
+government "Alr"
+	swizzle 6
+	color .75 .34 .11
+	"player reputation" -5
+	bribe 0
+	fine 0
