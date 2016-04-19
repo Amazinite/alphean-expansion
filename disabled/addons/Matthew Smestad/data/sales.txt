@@ -1,5 +1,6 @@
 shipyard "Betelgeuse Advanced"
 	" Phoenix "
+	"Dragoon"
 
 shipyard "Lionheart Advanced"
 	"Bactrian T2"
