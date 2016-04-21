@@ -1208,9 +1208,9 @@ planet Ztewgf
 	bribe 0
 	security 0
 
-#Alr Space
+# Alr
 system Arinuto
-	pos 254.992 -688.372
+	pos 217.759 -35.0405
 	government Alr
 	habitable 625
 	link Karimoji
@@ -1261,7 +1261,7 @@ system Arinuto
 		period 1552.23
 
 system Azimuhud
-	pos 581.844 -796.018
+	pos 494.34 -159.98
 	government Alr
 	habitable 625
 	link Johinhut
@@ -1313,7 +1313,7 @@ system Azimuhud
 		period 1658.74
 
 system Bhranu
-	pos 266.844 -829.018
+	pos 170.166 -151.327
 	government Alr
 	habitable 425.92
 	link Zuhinu
@@ -1362,7 +1362,7 @@ system Bhranu
 			period 22.9852
 
 system Duvenahm
-	pos 664.003 -858.052
+	pos 419.924 -34.2828
 	government Alr
 	habitable 745.92
 	asteroids "large rock" 1 5.278
@@ -1410,7 +1410,7 @@ system Duvenahm
 			period 12.1522
 
 system Ehahuh
-	pos 343.992 -743.372
+	pos 315.23 -71.5724
 	government Alr
 	habitable 1080
 	link Gelofari
@@ -1468,7 +1468,7 @@ system Ehahuh
 			period 12.3542
 
 system Fehrruhm
-	pos 476.844 -854.018
+	pos 370.013 -163.729
 	government Alr
 	habitable 1715
 	link Ophusihohn
@@ -1521,7 +1521,7 @@ system Fehrruhm
 			period 24.1394
 
 system Feroluhm
-	pos 716.003 -812.052
+	pos 464.926 -64.9459
 	government Alr
 	habitable 320
 	link Sahakasi
@@ -1572,9 +1572,9 @@ system Feroluhm
 			sprite planet/tethys
 			distance 194
 			period 11.5445
-
+            
 system Forosuud
-	pos 396.992 -700.372
+	pos 363.992 -17.372
 	government Alr
 	habitable 1705
 	link Karimoji
@@ -1631,7 +1631,7 @@ system Forosuud
 			period 12.1245
 
 system Gelofari
-	pos 292.992 -719.372
+	pos 245.259 -103.607
 	government Alr
 	habitable 233.28
 	link Arinuto
@@ -1685,7 +1685,7 @@ system Gelofari
 			period 52.9512
 
 system Jinomiah
-	pos 474.992 -737.372
+	pos 398.978 -59.4089
 	government Alr
 	habitable 625
 	link Forosuud
@@ -1744,7 +1744,7 @@ system Jinomiah
 			period 37.9314
 
 system Johinhut
-	pos 540.844 -820.018
+	pos 434.013 -185.198
 	government Alr
 	habitable 1505.92
 	link Kiha
@@ -1806,7 +1806,7 @@ system Johinhut
 			period 24.4934
 
 system Karimoji
-	pos 336.992 -662.372
+	pos 296.192 -8.97385
 	government Alr
 	habitable 425.92
 	link Arinuto
@@ -1866,7 +1866,7 @@ system Karimoji
 			period 26.2054
 
 system Kelaquri
-	pos 253.992 -730.372
+	pos 191.559 -75.2071
 	government Alr
 	habitable 425.92
 	link Gelofari
@@ -1913,7 +1913,7 @@ system Kelaquri
 		period 3743.46
 
 system Kiha
-	pos 507.844 -760.018
+	pos 413.34 -129.307
 	government Alr
 	habitable 625
 	link Jinomiah
@@ -1968,7 +1968,7 @@ system Kiha
 		period 2481.8
 
 system Lenonehv
-	pos 410.992 -774.372
+	pos 343.196 -125.171
 	government Alr
 	habitable 3452.76
 	link Forosuud
@@ -2029,7 +2029,7 @@ system Lenonehv
 			period 24.6333
 
 system Ophusihohn
-	pos 435.992 -817.372
+	pos 318.889 -194.879
 	government Alr
 	habitable 135
 	link Lenonehv
@@ -2083,9 +2083,9 @@ system Ophusihohn
 			sprite planet/lava0
 			distance 261
 			period 13.2502
-
+            
 system Qero
-	pos 204.844 -720.018
+	pos 150.611 -49.6197
 	government Alr
 	habitable 233.28
 	link Kelaquri
@@ -2139,7 +2139,7 @@ system Qero
 			period 24.0908
 
 system Sahakasi
-	pos 624.844 -835.018
+	pos 470.469 -110.422
 	government Alr
 	habitable 486.68
 	link Azimuhud
@@ -2193,7 +2193,7 @@ system Sahakasi
 		period 11937.6
 
 system Satahr
-	pos 590.844 -872.018
+	pos 465.523 -245.416
 	government Alr
 	habitable 1080
 	link Johinhut
@@ -2259,7 +2259,7 @@ system Satahr
 			period 27.9002
 
 system Ytmiuk
-	pos 337.992 -811.372
+	pos 261.978 -160.117
 	government Alr
 	habitable 233.28
 	link Zuhinu
@@ -2323,7 +2323,7 @@ system Ytmiuk
 			period 28.5769
 
 system Zuhinu
-	pos 286.992 -789.372
+	pos 206.926 -124.274
 	government Alr
 	habitable 858.28
 	link Ytmiuk
