@@ -13,22 +13,24 @@ ship "Korath Raider"
 		"Korath Grab-Strike" 4
 		"Korath Banisher"
 		"Korath Warder"
-		"Korath Tek'nel Reactor"
-		"Korath Shield Generator"
-		"Korath Heat Shunt"
+		"Triple Plasma Core"
+		"Systems Core (Medium)"
+		"Large Heat Shunt" 2
+		"Small Heat Shunt"
 		"Ramscoop"
 		"Intrusion Countermeasures" 4
-		"Korath Jak'torbal Thruster"
-		"Korath Jak'parat Steering"
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
 		"Jump Drive"
 		"Korath Crew Member" 246
 
 ship "Korath Chaser"
 	outfits
 		"Korath Fire-Lance"
-		"Korath Tek'far Reactor"
-		"Korath Ark'torbal Thruster"
-		"Korath Ark'parat Steering"
+		"Generator (Furnace Class)"
+		"Small Heat Shunt"
+		"Thruster (Asteroid Class)"
+		"Steering (Asteroid Class)"
 		"Korath Crew Member"
 
 ship "Korath World-Ship"
@@ -36,12 +38,12 @@ ship "Korath World-Ship"
 		"Korath Grab-Strike" 2
 		"Korath Banisher" 3
 		"Korath Warder" 3
-		"Korath Tek'nel Reactor"
-		"Korath Shield Generator"
-		"Korath Heat Shunt"
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 2
 		"Ramscoop"
 		"Intrusion Countermeasures" 6
-		"Korath Jak'torbal Thruster"
-		"Korath Jak'parat Steering"
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
 		"Hyperdrive"
 		"Korath Crew Member" 1486
