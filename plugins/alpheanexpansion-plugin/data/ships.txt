@@ -351,21 +351,21 @@ ship "Stealth Cruiser"
 ship "Kriegsmacher"
 	licenses
 		"Terror of the Galaxy"
-	sprite "ship/Kriegmaker" #Thanks, Matthew Smestad!
+	sprite "ship/Kriegsmaker" #Thanks, Matthew Smestad!
 	attributes
 		category "Heavy Warship"
-		"cost" 85200000
+		"cost" 125200000
 		"shields" 71200
 		"hull" 20200
-		"required crew" 241
-		"bunks" 473
+		"required crew" 751
+		"bunks" 1143
 		"mass" 4305
 		"drag" 47.6
 		"heat dissipation" .45
 		"fuel capacity" 900
 		"cargo space" 125
-		"outfit space" 2230
-		"weapon capacity" 645
+		"outfit space" 2530
+		"weapon capacity" 850
 		"engine capacity" 610
 		"identification" -1
 		weapon
@@ -375,7 +375,7 @@ ship "Kriegsmacher"
 			"hit force" 11200
 	outfits
 		"Heavy Laser" 4
-		"Heavy Laser Turret" 5
+		"Heavy Laser Turret" 6
 		"Heavy Anti-Missile Turret" 2
 		"Armageddon Core" 2
 		"LP576a Battery Pack" 2
@@ -386,27 +386,24 @@ ship "Kriegsmacher"
 		"A865 Atomic Steering"
 		"Hyperdrive"
 		"Capital Identification"
-	engine -60 236.5
-	engine 67 236.5
-	engine 39 237
-	engine 83 236
-	engine -35.5 237
-	engine -83 235.5
-	gun 300.5 -193.5
-	gun 244.5 -166
-	gun -245 -167.5
-	gun -301.5 -195
-	turret 179 -52.5 "Heavy Laser Turret"
-	turret 71 -67.5 "Heavy Anti-Missile Turret"
-	turret -71 -66.5 "Heavy Anti-Missile Turret"
-	turret -177 -51.5 "Heavy Laser Turret"
-	turret 138 79 "Heavy Laser Turret"
-	turret -138.5 79.5 "Heavy Laser Turret"
-	turret 0.5 -53 "Heavy Laser Turret"
-	fighter 178 -184.5
-	fighter 100.5 -185.5
-	fighter -100.5 -186
-	fighter -176 -185
+	gun 245 -166.5
+	gun 300.5 -194
+	turret 180 -53 "Heavy Laser Turret"
+	turret 71.5 -66.5 "Heavy Anti-Missile Turret"
+	turret 139.5 81.5 "Heavy Laser Turret"
+	turret 214.5 -66.5 "Heavy Laser Turret"
+	engine 64 236
+	fighter 101.5 -183.5
+	fighter 178.5 -184.5
+	gun -245 -166.5
+	gun -300.5 -194
+	turret -180 -53 "Heavy Laser Turret"
+	turret -71.5 -66.5 "Heavy Anti-Missile Turret"
+	turret -139.5 81.5 "Heavy Laser Turret"
+	turret -214.5 -66.5 "Heavy Laser Turret"
+	engine -64 236
+	fighter -101.5 -183.5
+	fighter -178.5 -184.5
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
