@@ -1,0 +1,60 @@
+ship "Nanobot" "Nano Heat"
+	outfits
+		"Heat Strike"
+
+outfit "Heat Strike"
+	category "Guns"
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		"hit effect" "nano spark"
+		"die effect" "nano spark"
+		"inaccuracy" 10
+		"velocity" 200
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 5
+		"heat damage" 5
+        
+ship "Nanobot" "Nano EMP"
+    outfits
+        "EMP Strike"
+        
+outfit "EMP Strike"
+	category "Guns"
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		"hit effect" "nano spark"
+		"die effect" "nano spark"
+		"inaccuracy" 10
+		"velocity" 200
+		"lifetime" 1
+		"reload" 10
+		"firing energy" 5
+		"ion damage" 5
+        
+fleet "Heat Nanos"
+    government "Space"
+    personality
+        heroic
+        vindictive
+    variant
+        "Nano Heat" 20
+        
+fleet "EMP Nanos"
+    government "Space"
+    personality
+        heroic
+        vindictive
+    variant
+        "Nano EMP" 20
+        
+government "Space"
+    "player reputation" -1000
