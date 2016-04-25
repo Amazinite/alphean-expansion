@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://github.com/Disiuze/alphean-expansion
 
 Files: *
-Copyright: Copyright Rafael Ramawadh <rramawadh@ymail.com>
+Copyright: Rafael Ramawadh <rramawadh@ymail.com>
 License: CC-BY-NA-4.0
 
 Files:
@@ -10,5 +10,5 @@ Files:
  images/ship/megaship*
  images/star/wholestar*
  images/projectile/asb*
-Copyright: Copyright Michael Zahniser <mzahniser@gmail.com>
+Copyright: Michael Zahniser <mzahniser@gmail.com>
 License: CC-BY-SA-4.0
