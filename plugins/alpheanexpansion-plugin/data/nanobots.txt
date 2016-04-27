@@ -8,10 +8,27 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Nanobot" "Nano Heat"
+ship "Spacebot" "Nano Heat"
+	attributes
+		"hull" 100
+		"automaton" 1
+		"mass" 10
+		"drag" 1
+		"heat dissipation" .9
+		"outfit space" 5
+		"weapon capacity" 5
+		"energy generation" .7
+		"energy capacity" 100
+		"turn" 40
+		"turning energy" .2
+		"thrust" 10
+		"thrusting energy" .3
+	gun 0 0
+
+ship "Spacebot" "Nano Heat"
 	outfits
 		"Heat Strike"
-
+		
 outfit "Heat Strike"
 	category "Guns"
 	thumbnail "outfit/unknown"
@@ -29,7 +46,7 @@ outfit "Heat Strike"
 		"firing energy" 5
 		"heat damage" 5
         
-ship "Nanobot" "Nano EMP"
+ship "Spacebot" "Nano EMP"
     outfits
         "EMP Strike"
         
