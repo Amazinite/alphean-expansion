@@ -378,6 +378,7 @@ outfit "Anti-Ship Battery"
     category "Turrets"
     cost 1000000
     thumbnail "outfit/asb"
+	"turret mounts" -1
 	weapon
 		sprite "projectile/asb"
 			"frame rate" 10
