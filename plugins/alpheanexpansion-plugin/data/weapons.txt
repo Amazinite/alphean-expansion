@@ -48,7 +48,7 @@ outfit "Intelligent Rocket Launcher"
 		"missile strength" 21
 		"ion damage" 2
 		"turn" 7
-	description "Intelligent Rockets are truly wondrous missiles, they go at high speeds and damage shields very easily. Good to use when you need to crack a significant force."
+	description "Intelligent Rockets are truly wondrous missiles; they go at high speeds and damage shields very easily. Good to use when you need to crack a significant force."
 
 outfit "Khorne Rocket Turret"
 	category "Turrets"
@@ -83,7 +83,7 @@ outfit "Khorne Rocket Turret"
 		"missile strength" 28
 		"ion damage" 2.4
 		"turn" 15
-	description "When the Union weapons manufacturer, Crushing Blow, could not create new weapons, the RnD section came up with the idea of mounting a missile launcher on a broken blaster turret. This is the result."
+	description "When the Federation weapons manufacturer, Crushing Blow, could not create new weapons, the RnD section came up with the idea of mounting a missile launcher on a broken blaster turret. This is the result."
 	
 outfit "Khorne Rocket"
 	category "Ammunition"
@@ -229,7 +229,7 @@ outfit "Energy Chaingun"
 		"firing heat" 86
 		"shield damage" 9
 		"hull damage" 6
-	description "A powerful weapon, this modified Blaster does not tamper with the firepower. Instead, it puts 5 Blasters into 1 effectively making it a chaingun."
+	description "A powerful weapon, this modified Blaster does not tamper with the firepower. Instead, it mounts five energy blaster on a rotating base, effectively making it a chaingun."
 	
 outfit "Nebulon Beam Turret"
 	category "Turrets"
@@ -251,7 +251,7 @@ outfit "Nebulon Beam Turret"
 		"shield damage" 56
 		"hull damage" 37
 		"inaccuracy" 0.1
-	description "This turret mounts 2 Nebulon Beams on a spinning turret allowing you to hit targets all around you."
+	description "This weapon gives you a pair of very accurate Nebulon Beams on an even more precise turret, ensuring that nobody is left out from death."
 
 outfit "Nebulon Beam"
 	category "Guns"
@@ -273,7 +273,7 @@ outfit "Nebulon Beam"
 		"shield damage" 56
 		"hull damage" 37
 		"inaccuracy" 0.1
-	description "The Nebulon Beam shoots Nebulon particles at such a fast rate that it becomes a beam. For some reason it also follows the target with a burning desire to kill."
+	description "The Nebulon Beam shoots Nebulon particles at such a fast rate that it becomes a beam. A side-effect of this causes it to also reach high temperates which contributes to its overall damage output."
 	
 outfit "Nebulon Residue"
 	weapon
@@ -323,7 +323,7 @@ outfit "Grenade Launcher" #Thanks, Michael Feather!
 		"missile strength" 150
 		"trigger radius" 75
 		"blast radius" 150
-	description "A newly developed weapon, this weapon lobs an explosive shell at the target and does tons of damage. It has a large detonation range so beware of hitting friendly ships."
+	description "After seeing so many different missile designs that all focused on firing swarms of weak homing projectiles, Tyil Corporation took inspiration from an archaeic design - grenades. Instead of making the shot home towards its target, grenades are meant to be fired mid-range, and let the effective radius work for you."
 	
 outfit "Grenade"  #Thanks, Michael Feather!
 	category "Ammunition"
@@ -364,8 +364,8 @@ outfit "Rail Cannon"
 		"hull damage" 1600
 		"hit force" 300
 		"missile strength" 0
-	description "A newly developed weapon, this weapon lobs a high AP slug at an enemy ship in an effort to pierce the hull or even split it in half."
-	description "The heat this weapon generates could disable your own ship's system so it could be a good idea to wait for the perfect moment."
+	description "A weapon developed for the express purpose of piercing the hull of another ship, the rail cannon fires a high AP shell at the target."
+	description "This cannon could easily overheat your ship after firing, so it is highly recommended to find an exact, oppurtune moment to unleash the rail."
 	
 outfit "Rail Slug"
 	category "Ammunition"
@@ -380,21 +380,25 @@ outfit "Anti-Ship Battery"
     thumbnail "outfit/asb"
 	"turret mounts" -1
 	weapon
+		icon "icon/tbd"
 		sprite "projectile/asb"
 			"frame rate" 10
 		sound "typhoon"
 		"fire effect" "typhoon fire"
 		"hit effect" "big explosion"
-		"inaccuracy" 4
+		"inaccuracy" 32
 		"velocity" 25
 		"lifetime" 400
-		"reload" 66
-		"firing energy" 2300
-		"firing heat" 7000
+		"reload" 300
+		"burst reload" 5
+		"burst count" 9
+		stream
+		"firing energy" 4550
+		"firing heat" 4750
 		"shield damage" 7000
 		"hull damage" 4667
 		"hit force" 500
-    description "An advanced turret designed specifically to destroy large ships. Its damaging capabilites make it impossible to pinpoint a target and demands a lot of power as well as creating a lot of heat."
+    description "This an anti-capital destroyer. It barrages large warships with repeated volleys of high-power shells, but since that is it's main purpose, it very easily misses small ships and strains your cooling systems."
 	
 outfit "EMP Bomb"
 	category "Ammunition"
@@ -427,7 +431,8 @@ outfit "EMP Bomb Launcher"
 		"firing heat" 27
 		"shield damage" 200
 		"ion damage" 650
-	description "The EMP Bomb Launcher launches an EMP Bomb designed to fry systems. It has a decently long range."
+		drag 15
+	description "The Electromagnetic Pulse Bomb Launcher, EMPL for short, cuts off foes' energy generation, forcing them to rely on batteries until they lie helpless under heavy fire."
 	
 outfit "ion pulse"
 	weapon
@@ -440,7 +445,7 @@ outfit "ion pulse"
 		
 outfit "Pulse EMP Bomb Launcher"
 	category "Secondary Weapons"
-	cost 650000
+	cost 720000
 	thumbnail "outfit/emp bomb launcher"
 	"mass" 45
 	"outfit space" -45
@@ -463,7 +468,9 @@ outfit "Pulse EMP Bomb Launcher"
 		"firing heat" 27
 		"shield damage" 200
 		"ion damage" 650
-	description "A specially developed EMP Bomb Launcher that pulses 4 times."
+		drag 15
+	description "The Electromagnetic Pulse Bomb Launcher, EMPL for short, cuts off foes' energy generation, forcing them to rely on batteries until they lie helpless under heavy fire."
+	description "	This version of the EMPL contains several charges of ion bursts, so releasing one on even a capital nearly always puts it out of commission."
 	
 outfit "ion pulse"
 	weapon
