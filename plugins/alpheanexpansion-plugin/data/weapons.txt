@@ -386,7 +386,7 @@ outfit "Anti-Ship Battery"
 		"fire effect" "typhoon fire"
 		"hit effect" "big explosion"
 		"inaccuracy" 4
-		"velocity" 150
+		"velocity" 25
 		"lifetime" 400
 		"reload" 66
 		"firing energy" 2300
