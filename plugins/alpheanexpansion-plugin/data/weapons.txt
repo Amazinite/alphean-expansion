@@ -398,7 +398,7 @@ outfit "Anti-Ship Battery"
 		"shield damage" 7000
 		"hull damage" 4667
 		"hit force" 500
-    description "This an anti-capital destroyer. It barrages large warships with repeated volleys of high-power shells, but since that is it's main purpose, it very easily misses small ships and strains your cooling systems."
+    description "This an anti-capital destroyer. It barrages large warships with repeated volleys of high-power shells, but since that is its main purpose, it very easily misses small ships and strains your cooling systems."
 	
 outfit "EMP Bomb"
 	category "Ammunition"
