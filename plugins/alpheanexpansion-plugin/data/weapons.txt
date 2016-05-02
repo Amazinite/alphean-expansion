@@ -379,6 +379,7 @@ outfit "Anti-Ship Battery"
     cost 1000000
     thumbnail "outfit/asb"
 	"turret mounts" -1
+	"outfit space" -50
 	weapon
 		icon "icon/tbd"
 		sprite "projectile/asb"
