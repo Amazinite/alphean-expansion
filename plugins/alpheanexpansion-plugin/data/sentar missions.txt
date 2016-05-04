@@ -13,7 +13,7 @@ mission "First Contact: Sentar"
 	waypoint Oblate
 	stopover Priam
 	#Guessing here
-	blocked `You need 10 tons of outfit space before you can do this, kid. Come back after emptying out your ship.`
+	blocked `You need 12 tons of outfit space before you can do this, kid. Come back after emptying out your ship.`
 	source
 		government "Syndicate"
 		attributes research
