@@ -29,7 +29,7 @@ outfitter "Common Outfits"
 		"RCS15 Thruster"
 		"RCS10 Steering"
 		"Meteor Missile Depot"
-		"Heat Sink"
+		"He-30 Heat Sink"
 		
 outfitter "Ammo South"
 		"Intelligent Rocket"
