@@ -499,13 +499,13 @@ outfit "SC240s Shield Capacitor"
 	"shields" 15000
 	description "Shield Capacitors increase the maximum shield energy carried by a ship."
 	
-outfit "Heat Sink"
+outfit "He-30 Heat Sink"
 	category "Systems"
 	cost 30000
 	mass 30
 	"outfit space" -10
 	"thumbnail" "outfit/unknown"
-	description "Heat Sinks increase the maximum heat a ship can handle. This comes at the cost of 30000 to install a 30 ton chunk of Nalabidium."
+	description "Heat Sinks increase the maximum heat a ship can handle. This comes at the cost of 30000 credits to install a 30 ton chunk of Nalabidium."
 
 outfit "Pillager Bolt-on Cockpit"
 	category "Systems"
