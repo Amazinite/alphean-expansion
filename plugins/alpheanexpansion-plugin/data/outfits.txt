@@ -130,7 +130,7 @@ outfit "Signal Interdictor Deluxe"
 	"outfit space" -24
 	"scan interference" 15
 	illegal 1500000
-	description "Mostly used by the elite from drug cartels, this outfit requires crew to maintain an anti-scan signal. This is illegal and as such you will be fined should you land on high security planets or be chased by a determined detective. Equippingjust a single one of these on your ship provides a 7 percent chance of being scanned successfully, and more probably woudn't be necessary."
+	description "Mostly used by the elite from drug cartels, this outfit requires crew to maintain an anti-scan signal. This is illegal and as such you will be fined should you land on high security planets or be chased by a determined detective. Equipping just a single one of these on your ship provides a 7 percent chance of being scanned successfully, and more probably woudn't be necessary."
 
 outfit "S-45 Lamprey"
 	category "Hand to Hand"
