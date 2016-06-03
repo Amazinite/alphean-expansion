@@ -21,7 +21,7 @@ outfit "HEAP-900 Vacuum Drive"
 		"frame rate" 0.9
 	"flare sound" "ion large"
 	cooling 0.9
-	description "The Vacuum drive works by ionizing particles found in the vacuum and pushing the ship with them. This makes for a fairly strong, and cool, engine."
+	description "The Vacuum Drive works by ionizing particles the vacuum itself creates and pushing the ship with them. This makes for a fairly strong, and cool, engine."
 
 outfit "HEAP-800 Breacher Steering"
 	category "Engines"
@@ -48,7 +48,7 @@ outfit "AP-7 Argentum Thruster"
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
-	description "Very similar to the Chipmunk Plasma Thruster, the Argentum Thruster includes a built-in cooling systems. This is because Horn class Fighters run very hot and have little space for cooling."
+	description "Very similar to the Chipmunk Plasma Thruster, the Argentum Thruster includes a built-in cooling systems. This is because Horn-class Fighters run very hot and have little space for cooling."
 	
 outfit "AP-6 Aurum Steering"
 	category "Engines"
@@ -60,7 +60,7 @@ outfit "AP-6 Aurum Steering"
 	"turn" 256
 	"turning energy" .3
 	cooling 0.7
-	description "Very similar to the Chipmunk Plasma Steering, the Aurum Steering includes a built-in cooling systems. This is because Horn class Fighters run very hot and have little space for cooling."
+	description "Very similar to the Chipmunk Plasma Steering, the Aurum Steering includes a built-in cooling systems. This is because Horn-class Fighters run very hot and have little space for cooling."
 
 outfit "S3NTAR Thruster"
 	category "Engines"
