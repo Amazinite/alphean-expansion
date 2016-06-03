@@ -11,13 +11,13 @@
 ship "Lightning Bug"
 	outfits
 		"Ion Cannon"
-		"Anti-Missile Turret" 2
-		"Fission Reactor"
-		"LP072a Battery Pack"
-		"S-270 Regenerator"
-		"Cooling Ducts"
-		"A250 Atomic Thruster"
-		"A375 Atomic Steering"
+		"Bullfrog Anti-Missile Turret" 2
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 10
 
@@ -26,36 +26,36 @@ ship "Lightning Bug" "Lightning Bug (Pulse)"
 		"Hai Tracker Pod"
 		"Hai Tracker" 56
 		"Pulse Turret" 2
-		"Fission Reactor"
-		"LP036a Battery Pack"
-		"S-270 Regenerator"
-		"Cooling Ducts"
-		"A370 Atomic Thruster"
-		"A255 Atomic Steering"
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Chasm Batteries" 2
+		"Hai Corundum Regenerator"
+		`"Biroo" Atomic Thruster`
+		`"Benga" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 10
 
 ship "Aphid"
 	outfits
 		"Pulse Turret"
-		"Dwarf Core"
-		"LP036a Battery Pack"
-		"S-270 Regenerator"
-		"Cooling Ducts"
-		"A120 Atomic Thruster"
-		"A125 Atomic Steering"
+		"Pebble Core"
+		"Hai Fissure Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling"
+		`"Basrem" Atomic Thruster`
+		`"Basrem" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 5
 
 ship "Aphid" "Aphid (Anti-Missile)"
 	outfits
-		"Heavy Anti-Missile Turret"
-		"Dwarf Core"
-		"LP036a Battery Pack"
-		"S-270 Regenerator"
-		"Cooling Ducts"
-		"A120 Atomic Thruster"
-		"A255 Atomic Steering"
+		"Chameleon Anti-Missile Turret"
+		"Pebble Core"
+		"Hai Fissure Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 5
 
@@ -64,13 +64,14 @@ ship "Water Bug"
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
 		"Pulse Turret"
-		"Heavy Anti-Missile Turret" 2
-		"Fission Reactor"
-		"LP144a Battery Pack"
-		"S-970 Regenerator"
-		"Cooling Ducts"
-		"A250 Atomic Thruster"
-		"A255 Atomic Steering"
+		"Chameleon Anti-Missile Turret" 2
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Chasm Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 29
 
@@ -79,12 +80,13 @@ ship "Water Bug" "Water Bug (Pulse)"
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
 		"Pulse Turret" 3
-		"Fission Reactor"
-		"LP144a Battery Pack"
-		"S-970 Regenerator"
-		"Cooling Ducts"
-		"A250 Atomic Thruster"
-		"A255 Atomic Steering"
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Chasm Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 29
 
@@ -93,13 +95,14 @@ ship "Water Bug" "Water Bug (Jump)"
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
 		"Pulse Turret"
-		"Heavy Anti-Missile Turret" 2
-		"Fission Reactor"
-		"LP144a Battery Pack"
-		"S-970 Regenerator"
-		"Cooling Ducts"
-		"A250 Atomic Thruster"
-		"A255 Atomic Steering"
+		"Chameleon Anti-Missile Turret" 2
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Chasm Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
 		"Jump Drive"
 		"Hai Crew Member" 29
 
@@ -108,14 +111,14 @@ ship "Shield Beetle"
 		"Ion Cannon" 4
 		"Hai Tracker Pod" 4
 		"Hai Tracker" 224
-		"Heavy Anti-Missile Turret" 2
-		"Fusion Reactor"
-		"Fission Reactor"
-		"LP288a Battery Pack"
-		"S-970 Regenerator"
-		"Cooling Ducts" 4
-		"A370 Atomic Thruster"
-		"A865 Atomic Steering"
+		"Chameleon Anti-Missile Turret" 2
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Hai Valley Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling" 2
+		`"Biroo" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 95
 
@@ -124,13 +127,13 @@ ship "Shield Beetle" "Shield Beetle (Tracker)"
 		"Hai Tracker Pod" 8
 		"Hai Tracker" 448
 		"Pulse Turret" 4
-		"Fusion Reactor"
-		"Fission Reactor"
-		"LP288a Battery Pack"
-		"S-970 Regenerator"
-		"Cooling Ducts" 4
-		"A520 Atomic Thruster"
-		"A525 Atomic Steering"
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Hai Valley Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling" 2
+		`"Bondir" Atomic Steering`
+		`"Bufaer" Atomic Steering`
 		"Hyperdrive"
 		"Hai Crew Member" 95
 		
@@ -139,16 +142,15 @@ ship "Shield Beetle" "Shield Beetle (Jump)"
 		"Ion Cannon" 4
 		"Hai Tracker Pod" 4
 		"Hai Tracker" 224
-		"Heavy Anti-Missile Turret" 2
-		"Fusion Reactor"
-		"Fission Reactor"
-		"LP288a Battery Pack"
+		"Chameleon Anti-Missile Turret" 2
+		"Boulder Reactor" 2
+		"Hai Ravine Batteries"
 		"Mass Expansion" 4
-		"S-970 Regenerator" 2
+		"Hai Diamond Regenerator" 2
 		"Fuel Pod" 3
-		"Cooling Ducts" 4
-		"A370 Atomic Thruster"
-		"A865 Atomic Steering"
+		"Hai Williwaw Cooling" 4
+		`"Biroo" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
 		"Jump Drive"
 		"Hai Crew Member" 95
 	gun "Ion Cannon"
@@ -159,23 +161,22 @@ ship "Shield Beetle" "Shield Beetle (Jump)"
 	gun "Hai Tracker Pod"
 	gun "Hai Tracker Pod"
 	gun "Hai Tracker Pod"
-	turret "Heavy Anti-Missile Turret"
-	turret "Heavy Anti-Missile Turret"
+	turret "Chameleon Anti-Missile Turret"
+	turret "Chameleon Anti-Missile Turret"
 
 ship "Shield Beetle" "Shield Beetle (Jump, Tracker)"
 	outfits
 		"Hai Tracker Pod" 8
 		"Hai Tracker" 448
 		"Pulse Turret" 4
-		"Fusion Reactor"
-		"Fission Reactor"
-		"LP288a Battery Pack"
-		"Mass Expansion" 1
-		"S-970 Regenerator" 2
+		"Boulder Reactor" 2
+		"Hai Ravine Batteries"
+		"Mass Expansion" 4
+		"Hai Diamond Regenerator" 2
 		"Fuel Pod" 3
-		"Cooling Ducts" 4
-		"A520 Atomic Thruster"
-		"A525 Atomic Steering"
+		"Hai Williwaw Cooling" 5
+		`"Bondir" Atomic Steering`
+		`"Bufaer" Atomic Steering`
 		"Jump Drive"
 		"Hai Crew Member" 95
 
