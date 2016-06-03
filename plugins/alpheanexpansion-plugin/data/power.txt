@@ -36,7 +36,7 @@ outfit "PR-750 Wormhole Reactor"
 	"heat generation" 120
 	weapon
 		"firing heat" 7
-	description "A very, very powerful reactor. It works by creating a miniature wormhole to a dimension where a energy pool resides and draws power from it. It runs very hot as result of constantly keeping the wormhole open. It gets hotter when weapons are fired."
+	description "A very, very powerful reactor. It works by creating a miniature wormhole to a dimension where an energy pool resides and draws power from it. It runs very hot as result of constantly keeping the wormhole open, and even hotter when weapons are firing."
 
 outfit "PR-600 Reactor"
 	category "Power"
@@ -57,7 +57,7 @@ outfit "ZZZ-999 Sunburn"
 	"energy generation" 50
 	"heat generation" 180
 	"capture defense" 1.1
-	description "The most powerful reactor known to humans, this reactor generates so much heat, that it glows like a sun. Any attempt to reverse engineer this will not work, the secret of it generating so much energy (and heat) is guarded by a built in defence mechanism."
+	description "The most powerful reactor known to humans, this reactor generates so much heat that it glows like a sun. Any attempt to reverse engineer this will not work, because the secret of it generating so much energy (and heat) is guarded by a built-in defence mechanism."
 
 outfit "S3NTAR Reactor"
 	category "Power"
@@ -66,4 +66,4 @@ outfit "S3NTAR Reactor"
 	"outfit space" -300
 	"energy generation" 75
 	description "The almighty Sentarian Reactor. It takes up so much space, that on ships that aren't Sentarian, it has no practical use."
-	description "A station might be able to use though..."
+	description "A station might be able to use it though..."
