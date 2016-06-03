@@ -41,7 +41,7 @@ outfit "XF-111 Ship Core"
 	"shield generation" 0.17
 	"heat generation" 1
     "shield energy" 1
-	"description" "A very handy multi-purpose outfit commonly found on the smaller side of ships or on transports."
+	"description" "A very handy multi-purpose outfit commonly found on the smaller side of ships like transports."
 
 outfit "XF-333 Ship Core"
 	category "Systems"
@@ -56,7 +56,7 @@ outfit "XF-333 Ship Core"
 	"shield generation" 0.36
 	"heat generation" 3
     "shield energy" 1
-	"description" "A multipurpose outfit mostly used for medium ships. This size has a finely tuned hyperdrive."
+	"description" "A multi-purpose outfit mostly used for medium ships. This size has a finely tuned hyperdrive."
 
 outfit "XF-555 Ship Core"
 	category "Systems"
@@ -73,7 +73,7 @@ outfit "XF-555 Ship Core"
 	"hull repair rate" 0.7
     "shield energy" 1
     "hull energy" 1
-	"description" "A very handy multi-purpose outfit, it carries a Generator, a Hyperdrive, a Shield Generator and a Nanite Damage Control Unit."
+	"description" "A very handy multi-purpose outfit, it carries a power generator, a hyperdrive, a shield generator and a Nanite Damage Control Unit, which repairs hull damage."
 		
 outfit "Hervar Regenerator"
 	category "Systems"
@@ -85,7 +85,7 @@ outfit "Hervar Regenerator"
 	"energy generation" -.5
 	"heat generation" 4
     "shield energy" 1
-	description "A prototype shield regenerator originally developed by the Republic, the only working prototype of it was stolen by pirates, who then starting producing them. They do, however, cost a lot of money."
+	description "A prototype shield regenerator originally developed by the Republic, the only working prototype of it was stolen by pirates, who then starting producing them. For their size, they produce exceptional shield generation, but still are only used by pirates who don't care about heat or power. They do, however, cost a lot of money."
 
 outfit "Sizeable Map"
 	category "Special"
@@ -130,7 +130,7 @@ outfit "Signal Interdictor Deluxe"
 	"outfit space" -24
 	"scan interference" 15
 	illegal 1500000
-	description "Mostly used by the elite from drug cartels, this outfit requires crew to maintain an anti-scan signal. This is illegal and as such you will be fined should you land on high security planets or be chased by a determined detective. Equipping on of these on your ship provides a 7 percent chance of being scanned successfully."
+	description "Mostly used by the elite from drug cartels, this outfit requires crew to maintain an anti-scan signal. This is illegal and as such you will be fined should you land on high security planets or be chased by a determined detective. Equipping just a single one of these on your ship provides a 7 percent chance of being scanned successfully, and more probably woudn't be necessary."
 
 outfit "S-45 Lamprey"
 	category "Hand to Hand"
@@ -289,7 +289,7 @@ outfit "Civilian Cloaking Device"
 	"cloaking energy" 2.05
 	"cloaking fuel" .2
 	"heat generation" 0.71
-	description "A Cloaking Device authorized for sale by the Republic. Because of its functionality, it has been modified to take up more space, be more expensive and use up more of the ship's resources."
+	description "A Cloaking Device authorized for sale by the Republic. Because of its functionality, it has been modified to take up more space, be more expensive, and use up more of the ship's resources."
 	
 outfit "Capital Identification"
 	category "Special"
@@ -537,4 +537,4 @@ outfit "MEGA Shield Module"
     "megaship capacity" 500
     "shield generation" 45
     "shield energy" 50
-    description "Megaships are the leader of the battlefield. As such they need adequite protection. A large amount of shield energy means that the megaship also requires a strong shield generator."
+    description "Megaships are the leader of the battlefield. As such they need adequate protection. A large amount of shield energy means that the megaship also requires a strong shield generator."
