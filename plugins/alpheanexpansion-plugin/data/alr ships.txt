@@ -1,0 +1,600 @@
+# Copyright (c) 2016 by Rafael Ramawadh
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Alr Fahrzan"
+	licenses
+		"Alr Mixed"
+	sprite "ship/world-ship a"
+	attributes
+		category "Heavy Freighter"
+		cost 27690000
+		shields 47000
+		hull 34000
+		"required crew" 794
+		"bunks" 1492
+		"mass" 1735
+		"drag" 21
+		"heat dissipation" .4
+		"fuel capacity" 600
+		"cargo space" 264
+		"outfit space" 778
+		"weapon capacity" 314
+		"engine capacity" 165
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Korath Grab-Strike" 2
+		"Korath Banisher" 3
+		"Korath Warder" 3
+		
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 2
+		"Ramscoop"
+		"Intrusion Countermeasures" 6
+		
+		"Thruster (Planetary Class)"
+		"Steering (Planetary Class)"
+		"Hyperdrive"
+	
+	engine -37 343
+	engine 0 343
+	engine 37 343
+	turret -76 -157 "Korath Grab-Strike"
+	turret 76 -157 "Korath Banisher"
+	turret -59 -135 "Korath Warder"
+	turret 59 -135 "Korath Grab-Strike"
+	turret -61 -6 "Korath Banisher"
+	turret 61 -6 "Korath Warder"
+	turret -66 210 "Korath Warder"
+	turret 66 210 "Korath Banisher"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "The Alr have built ships that are near-identical to the World-Ships used by the Kor Efret and the Korath Exiles."
+	description "These giants are the backbone of the Alr economy but they're also valuable assets to their military forces."
+
+ship "Alr Fahrzan" "Alr Fahrzan B"
+	sprite "ship/world-ship b"
+	turret -76 -219 "Korath Grab-Strike"
+	turret 76 -219 "Korath Grab-Strike"
+	turret -75 -112 "Korath Banisher"
+	turret 0 -92 "Korath Warder"
+	turret 75 -112 "Korath Banisher"
+	turret -83 165 "Korath Warder"
+	turret 83 165 "Korath Warder"
+	turret 0 277 "Korath Banisher"
+
+ship "Alr Fahrzan" "Alr Fahrzan C"
+	sprite "ship/world-ship c"
+	turret -45 -247 "Korath Warder"
+	turret 45 -247 "Korath Grab-Strike"
+	turret -47 -140 "Korath Grab-Strike"
+	turret 47 -140 "Korath Banisher"
+	turret -70 53 "Korath Warder"
+	turret 70 53 "Korath Banisher"
+	turret -91 286 "Korath Banisher"
+	turret 91 286 "Korath Warder"
+	
+ship "Alr Sheji"
+	licenses
+		"Alr Military"
+	sprite "ship/flycatcher"
+	attributes
+		category "Interceptor"
+		"cost" 830000
+		"hull" 4700
+		"mass" 40
+		"drag" .6
+		"heat dissipation" .9
+		"outfit space" 86
+		"weapon capacity" 28
+		"engine capacity" 26
+		"automaton" 1
+		weapon
+			"blast radius" 10
+			"shield damage" 100
+			"hull damage" 150
+			"hit force" 250
+	outfits
+		"Wanderer Anti-Missile"
+		
+		"Small Biochemical Cell" 2
+		
+		"Type 1 Radiant Thruster"
+		"Type 1 Radiant Steering"
+		
+	engine -9 28
+	engine 9 28
+	turret 0 4
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	description "The Sheji is an autonomous drone usually deployed in groups of 12. They have very weak weaponry though it makes up for it by draining the opponent's ship of energy."
+	
+ship "Alr Azo-1"
+	licenses
+		"Alr Military"
+	sprite "ship/model 16"
+	attributes
+		category "Light Warship"
+		"cost" 8449000
+		"shields" 15700
+		"hull" 9800
+		"automaton" 1
+		"mass" 250
+		"drag" 6.9
+		"heat dissipation" 1.3
+		"fuel capacity" 400
+		"cargo space" 7
+		"outfit space" 426
+		"weapon capacity" 149
+		"engine capacity" 107
+		"self destruct" .65
+		"ramscoop" 3
+		weapon
+			"blast radius" 200
+			"shield damage" 2200
+			"hull damage" 1100
+			"hit force" 3300
+	outfits
+		"Korath Minelayer"
+		"Korath Mine" 17
+		"Korath Disruptor"
+		"Korath Slicer Turret"
+		
+		"Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Small)"
+		"Small Heat Shunt"
+		
+		"Thruster (Planetary Class)"
+		"Steering (Lunar Class)"
+		Hyperdrive
+	
+	engine -10 99
+	engine 10 99
+	gun 0 -99 "Korath Minelayer"
+	turret -18 -31 "Korath Disruptor"
+	turret 19 49 "Korath Slicer Turret"
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "big explosion" 10
+	"final explode" "final explosion small"
+	description "The Alr Azo models are part of the Alr military-controlled Automaton Force."
+	description "Each Azo serves its own purpose and in groups can quickly turn the tides of battle."
+
+ship "Alr Azo-5"
+	licenses
+		"Alr Military"
+	sprite "ship/model 32"
+	attributes
+		category "Light Warship"
+		"cost" 12765000
+		"shields" 27900
+		"hull" 13400
+		"automaton" 1
+		"mass" 370
+		"drag" 9.0
+		"heat dissipation" 1.3
+		"fuel capacity" 400
+		"cargo space" 16
+		"outfit space" 481
+		"weapon capacity" 205
+		"engine capacity" 110
+		"self destruct" .70
+		"ramscoop" 3
+		weapon
+			"blast radius" 240
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Korath Minelayer"
+		"Korath Mine" 17
+		"Korath Disruptor"
+		"Korath Slicer Turret" 2
+		
+		"Double Plasma Core"
+		"Generator (Candle Class)"
+		"Systems Core (Small)"
+		"Small Heat Shunt"
+		
+		"Thruster (Planetary Class)"
+		"Steering (Lunar Class)"
+		Hyperdrive
+
+	engine -10 128
+	engine 10 128
+	gun 0 -129 "Korath Minelayer"
+	turret 32 -24 "Korath Disruptor"
+	turret -31 -9 "Korath Slicer Turret"
+	turret 24 19 "Korath Slicer Turret"
+	explode "tiny explosion" 80
+	explode "small explosion" 55
+	explode "medium explosion" 40
+	explode "big explosion" 15
+	"final explode" "final explosion medium"
+	description "The upgrade from Azo-1 to Azo-5 makes it twice as deadly but far slower, granting them a supporting role in the Automaton Force."
+
+
+ship "Alr Azo-15"
+	licenses
+		"Alr Military"
+	sprite "ship/model 64"
+	attributes
+		category "Medium Warship"
+		"cost" 19552000
+		"shields" 41700
+		"hull" 18000
+		"automaton" 1
+		"mass" 580
+		"drag" 11.1
+		"heat dissipation" 1.1
+		"fuel capacity" 400
+		"cargo space" 34
+		"outfit space" 567
+		"weapon capacity" 263
+		"engine capacity" 114
+		"self destruct" .74
+		"ramscoop" 3
+		weapon
+			"blast radius" 280
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Korath Minelayer"
+		"Korath Mine" 17
+		"Korath Disruptor" 2
+		"Korath Slicer Turret" 2
+		
+		"Double Plasma Core"
+		"Generator (Furnace Class)"
+		"Systems Core (Medium)"
+		
+		"Thruster (Lunar Class)"
+		"Thruster (Asteroid Class)"
+		"Steering (Planetary Class)"
+		Hyperdrive
+	
+	engine -19 159
+	engine 19 159
+	gun 0 -159 "Korath Minelayer"
+	turret -35 -69 "Korath Disruptor"
+	turret 20 -74 "Korath Slicer Turret"
+	turret 34 77 "Korath Disruptor"
+	turret -29 71 "Korath Slicer Turret"
+	explode "tiny explosion" 100
+	explode "small explosion" 70
+	explode "medium explosion" 50
+	explode "big explosion" 20
+	"final explode" "final explosion medium"
+	description "The Azo-15 is the final stage of the Azo line. While its the upgrade from Azo-1 to Azo-5 made it slower, the upgrade to Azo-15 made faster, stronger and overall better. Usually, though, they are used at mobile resupply platforms due to their offensive abilities paired with their high volume cargo hold."
+	
+ship "Alr Fakoret"
+	licenses
+		"Alr Mixed"
+	sprite "ship/tek far 71 lek"
+	attributes
+		category "Medium Warship"
+		"cost" 22870000
+		"shields" 25400
+		"hull" 29500
+		"automaton" 1
+		"mass" 610
+		"drag" 9.6
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 36
+		"outfit space" 533
+		"weapon capacity" 235
+		"engine capacity" 102
+		"self destruct" .7
+		"ramscoop" 3
+		weapon
+			"blast radius" 320
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 6000
+	outfits
+		"Korath Detainer"
+		"Korath Piercer Launcher" 2
+		"Korath Piercer" 62
+		"Korath Banisher"
+		"Korath Warder" 2
+		
+		"Double Plasma Core"
+		"Generator (Furnace Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		
+		"Thruster (Lunar Class)"
+		"Steering (Lunar Class)"
+		"Hyperdrive"
+	
+	engine -9 219
+	engine 9 219
+	gun 10 -180 "Korath Detainer"
+	gun 10 -180 "Korath Piercer Launcher"
+	gun 10 -180 "Korath Piercer Launcher"
+	turret -10 -85 "Korath Warder"
+	turret -13 -61
+	turret -14 -38 "Korath Banisher"
+	turret 14 177 "Korath Warder"
+	drone 20.5 -65 over
+	drone 44.5 -40 over
+	drone 30 67 over
+	drone 61.5 83 over
+	drone 43 137 over
+	drone 18 171.5 over
+	drone 30 -106 under
+	drone 24 -8 under
+	drone 42 55 under
+	drone 34 172 under
+	explode "tiny explosion" 80
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Alr Fakoret is an example of Alr ingenuity; flexible multirole ships. The Fakoret doubles as a transport, a carrier, and freighter. This makes it a very flexible ship."
+
+ship "Alr Fakocot"
+	licenses
+		"Alr Mixed"
+	sprite "ship/tek far 78 osk"
+	attributes
+		category "Medium Warship"
+		"cost" 25630000
+		"shields" 27600
+		"hull" 34100
+		"automaton" 1
+		"mass" 690
+		"drag" 10.2
+		"heat dissipation" .55
+		"fuel capacity" 400
+		"cargo space" 43
+		"outfit space" 611
+		"weapon capacity" 272
+		"engine capacity" 117
+		"self destruct" .7
+		"ramscoop" 3
+		weapon
+			"blast radius" 340
+			"shield damage" 4400
+			"hull damage" 2200
+			"hit force" 6600
+	outfits
+		"Korath Detainer"
+		"Korath Piercer Launcher" 3
+		"Korath Piercer" 93
+		"Korath Banisher"
+		"Korath Warder" 2
+		
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt"
+		
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		Hyperdrive
+	
+	engine -9 245
+	engine 9 245
+	gun 0 -239 "Korath Detainer"
+	gun 0 -239 "Korath Piercer Launcher"
+	gun -9 -220 "Korath Piercer Launcher"
+	gun -9 -220 "Korath Piercer Launcher"
+	turret 17 -133 "Korath Warder"
+	turret 19 -110
+	turret 21 -87
+	turret 23 -64 "Korath Banisher"
+	turret 38 145 "Korath Warder"
+	fighter -18.5 -163 over
+	fighter -43.5 -103.5 over
+	fighter -16.5 -32.5 over
+	fighter -30 57 over
+	fighter -55.5 96.5 over
+	fighter -21.5 150.5 over
+	fighter -32.5 -76.5 under
+	fighter -14.5 43.5 under
+	fighter -42.5 193.5 under
+	explode "tiny explosion" 90
+	explode "small explosion" 50
+	explode "medium explosion" 55
+	explode "big explosion" 45
+	explode "huge explosion" 12
+	"final explode" "final explosion large"
+	description "The Alr Fakocot is an example of Alr ingenuity; flexible multirole ships. The Fakocot doubles as a transport, a carrier, and freighter. This makes it a very flexible ship."
+
+ship "Alr Fakiza"
+	licenses
+		"Alr Mixed"
+	sprite "ship/tek far 109"
+	attributes
+		category "Medium Warship"
+		"cost" 18290000
+		"shields" 17900
+		"hull" 15800
+		"automaton" 1
+		"mass" 540
+		"drag" 9.1
+		"heat dissipation" .65
+		"fuel capacity" 400
+		"cargo space" 31
+		"outfit space" 491
+		"weapon capacity" 217
+		"engine capacity" 98
+		"self destruct" .7
+		"ramscoop" 3
+		weapon
+			"blast radius" 280
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Korath Detainer"
+		"Korath Piercer Launcher" 2
+		"Korath Piercer" 62
+		"Korath Banisher" 2
+		
+		"Double Plasma Core"
+		"Systems Core (Medium)"
+		"Small Heat Shunt" 2
+		
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		Hyperdrive
+	
+	engine -9 205
+	engine 9 205
+	gun 0 -214 "Korath Detainer"
+	gun -14 -206 "Korath Piercer Launcher"
+	gun 14 -206 "Korath Piercer Launcher"
+	turret -89 32
+	turret 89 32
+	drone 38.5 -115.5 over
+	drone 25 -50.5 over
+	drone 59 28 over
+	drone 28 79 over
+	drone 19.5 145.5 over
+	drone 57.5 -56.5 under
+	drone 40 19 under
+	drone 60 58.5 under
+	drone 45.5 135 under
+	fighter -36.5 -130.5 over
+	fighter -61.5 -68 over
+	fighter -29.5 -17 over
+	fighter -54.5 55 over
+	fighter -62 24 under
+	fighter -35 136.5 under
+	fighter -22 -82 under
+	explode "tiny explosion" 70
+	explode "small explosion" 40
+	explode "medium explosion" 45
+	explode "big explosion" 30
+	explode "huge explosion" 8
+	"final explode" "final explosion medium"
+	description "The Alr Fakiza is commonly used for both troop transport and civilian transport. This is because of its high number of bunks and dense hull."
+
+
+ship "Alr Vo"
+	licenses
+		"Alr Civilian"
+	sprite "ship/met par tek 53"
+	attributes
+		category "Light Warship"
+		"cost" 14480000
+		"shields" 15100
+		"hull" 22200
+		"automaton" 1
+		"mass" 420
+		"drag" 5.7
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 26
+		"outfit space" 610
+		"weapon capacity" 213
+		"engine capacity" 110
+		"self destruct" .65
+		"ramscoop" 3
+		weapon
+			"blast radius" 250
+			"shield damage" 3200
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+		"Korath Repeater" 3
+		"Korath Repeater Turret" 6
+		
+		"Double Plasma Core"
+		"Generator (Inferno Class)"
+		"Systems Core (Medium)"
+		"Large Heat Shunt" 3
+		
+		"Thruster (Lunar Class)"
+		"Steering (Planetary Class)"
+		Hyperdrive
+	
+	engine -24 132
+	engine 24 132
+	gun 0 -92 "Korath Repeater"
+	gun -10 -65 "Korath Repeater"
+	gun 10 -65 "Korath Repeater"
+	turret -36 -45 "Korath Repeater Turret"
+	turret 36 -45 "Korath Repeater Turret"
+	turret -38 -28 "Korath Repeater Turret"
+	turret 38 -28 "Korath Repeater Turret"
+	turret -40 -8 "Korath Repeater Turret"
+	turret 40 -8 "Korath Repeater Turret"
+	
+	explode "tiny explosion" 60
+	explode "small explosion" 30
+	explode "medium explosion" 35
+	explode "big explosion" 20
+	explode "huge explosion" 6
+	"final explode" "final explosion medium"
+	description "The Alr Vo is the most simple ship in the Alr arsenal. It features space for 3 turrets, enough bunks for a very small town and it has a lot of shielding due it its flexible shielding system."
+
+ship "Alr Krajina"
+	licenses
+		"Alr Military"
+	sprite "ship/skylark"
+	attributes
+		category "Heavy Warship"
+		"cost" 5900000
+		"shields" 120000
+		"hull" 70000
+		"required crew" 120
+		"bunks" 210
+		"mass" 460
+		"drag" 12.3
+		"heat dissipation" .7
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 120
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Quarg Skylance" 2
+		"Quarg Anti-Missile" 2
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+		"Intrusion Countermeasures" 120
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Jump Drive"
+	engine -15 117
+	engine 15 117
+	turret -12 -80 "Quarg Skylance"
+	turret 12 -80 "Quarg Skylance"
+	turret -12 -80 "Quarg Anti-Missile"
+	turret 12 -80 "Quarg Anti-Missile"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "big explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description "The Alr Krajina is the workhorse of the Alr military. Its modular design and powerful hull make it an instant buy for anyone with the authority to acquire one."
+	
