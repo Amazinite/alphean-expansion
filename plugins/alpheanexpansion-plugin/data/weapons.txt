@@ -13,13 +13,14 @@ outfit "Intelligent Rocket"
 	cost 4000
 	thumbnail "outfit/unknown"
 	"intelrock capacity" -1
+	mass .25
 	description "Intelligent Rockets are ammunition for the Intelligent Rocket Launcher. You cannot install one unless you have first installed a launcher to fire it from. Each launcher holds up to 20 rockets."
 
 outfit "Intelligent Rocket Launcher"
 	category "Secondary Weapons"
 	cost 90000
 	thumbnail "outfit/unknown"
-	"mass" 20
+	"mass" 15
 	"outfit space" -20
 	"weapon capacity" -20
 	"gun ports" -1
@@ -54,7 +55,7 @@ outfit "Khorne Rocket Turret"
 	category "Turrets"
 	cost 175000
 	thumbnail "outfit/unknown"
-	"mass" 40
+	"mass" 35
 	"outfit space" -40
 	"weapon capacity" -40
 	"turret mounts" -1
@@ -90,6 +91,7 @@ outfit "Khorne Rocket"
 	cost 5000
 	thumbnail "outfit/unknown"
 	"khorne capacity" -1
+	mass .25
 	description "Khorne Rocket Turret ammo."
 	
 outfit "Horn Flamethrower"
@@ -157,13 +159,14 @@ outfit "Soaker Missile"
 	cost 8000
 	thumbnail "outfit/rocket"
 	"soaker capacity" -1
+	mass 1
 	description "Soaker Missiles for use with their Launcher."
 	
 outfit "Soaker Missile Launcher"
 	category "Secondary Weapons"
 	cost 650000
 	thumbnail "outfit/rocket launcher"
-	"mass" 30
+	"mass" 20
 	"outfit space" -30
 	"weapon capacity" -30
 	"gun ports" -1
@@ -294,7 +297,7 @@ outfit "Grenade Launcher" #Thanks, Michael Feather!
 	category "Secondary Weapons"
 	cost 80000
 	thumbnail "outfit/grenadel"
-	"mass" 35
+	"mass" 30
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
@@ -330,13 +333,14 @@ outfit "Grenade"  #Thanks, Michael Feather!
 	cost 1000
 	thumbnail "outfit/grenade"
 	"grenade capacity" -1
+	mass .2
 	description "The ammunition used by the Grenade Launchers."
 	
 outfit "Rail Cannon"
 	category "Secondary Weapons"
 	cost 80000
 	thumbnail "outfit/ion cannon"
-	"mass" 50
+	"mass" 35
 	"outfit space" -50
 	"weapon capacity" -50
 	"gun ports" -1
@@ -372,6 +376,7 @@ outfit "Rail Slug"
 	cost 10000
 	thumbnail "outfit/hai tracker"
 	"slug capacity" -1
+	mass .5
 	description "The expensive slugs launched by the Rail Cannon."
 
 outfit "Anti-Ship Battery"
@@ -406,13 +411,14 @@ outfit "EMP Bomb"
 	cost 8000
 	thumbnail "outfit/emp bomb"
 	"empbomb capacity" -1
+	mass .357
 	description "EMP Bombs designed to overload electical systems."
 	
 outfit "EMP Bomb Launcher"
 	category "Secondary Weapons"
 	cost 650000
 	thumbnail "outfit/emp bomb launcher"
-	"mass" 25
+	"mass" 20
 	"outfit space" -25
 	"weapon capacity" -25
 	"gun ports" -1
@@ -448,7 +454,7 @@ outfit "Pulse EMP Bomb Launcher"
 	category "Secondary Weapons"
 	cost 720000
 	thumbnail "outfit/emp bomb launcher"
-	"mass" 45
+	"mass" 30
 	"outfit space" -45
 	"weapon capacity" -45
 	"gun ports" -1
