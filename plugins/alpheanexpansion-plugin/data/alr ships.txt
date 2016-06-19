@@ -23,7 +23,7 @@ ship "Alr Fahrzan"
 		"drag" 21
 		"heat dissipation" .4
 		"fuel capacity" 600
-		"cargo space" 264
+		"cargo space" 764
 		"outfit space" 778
 		"weapon capacity" 314
 		"engine capacity" 165
@@ -33,31 +33,19 @@ ship "Alr Fahrzan"
 			"hull damage" 4000
 			"hit force" 12000
 	outfits
-		"Korath Grab-Strike" 2
-		"Korath Banisher" 3
-		"Korath Warder" 3
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Large Heat Shunt" 2
-		"Ramscoop"
-		"Intrusion Countermeasures" 6
-		
-		"Thruster (Planetary Class)"
-		"Steering (Planetary Class)"
-		"Hyperdrive"
-	
+		"Alr Anti-Missile" 3
+
 	engine -37 343
 	engine 0 343
 	engine 37 343
-	turret -76 -157 "Korath Grab-Strike"
-	turret 76 -157 "Korath Banisher"
-	turret -59 -135 "Korath Warder"
-	turret 59 -135 "Korath Grab-Strike"
-	turret -61 -6 "Korath Banisher"
-	turret 61 -6 "Korath Warder"
-	turret -66 210 "Korath Warder"
-	turret 66 210 "Korath Banisher"
+	turret -76 -157 
+	turret 76 -157 
+	turret -59 -135 "Alr Anti-Missile"
+	turret 59 -135 
+	turret -61 -6 
+	turret 61 -6 "Alr Anti-Missile"
+	turret -66 210 "Alr Anti-Missile"
+	turret 66 210 
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -72,22 +60,22 @@ ship "Alr Fahrzan" "Alr Fahrzan B"
 	turret -76 -219 "Korath Grab-Strike"
 	turret 76 -219 "Korath Grab-Strike"
 	turret -75 -112 "Korath Banisher"
-	turret 0 -92 "Korath Warder"
+	turret 0 -92 "Alr Anti-Missile"
 	turret 75 -112 "Korath Banisher"
-	turret -83 165 "Korath Warder"
-	turret 83 165 "Korath Warder"
+	turret -83 165 "Alr Anti-Missile"
+	turret 83 165 "Alr Anti-Missile"
 	turret 0 277 "Korath Banisher"
 
 ship "Alr Fahrzan" "Alr Fahrzan C"
 	sprite "ship/world-ship c"
-	turret -45 -247 "Korath Warder"
+	turret -45 -247 "Alr Anti-Missile"
 	turret 45 -247 "Korath Grab-Strike"
 	turret -47 -140 "Korath Grab-Strike"
 	turret 47 -140 "Korath Banisher"
-	turret -70 53 "Korath Warder"
+	turret -70 53 "Alr Anti-Missile"
 	turret 70 53 "Korath Banisher"
 	turret -91 286 "Korath Banisher"
-	turret 91 286 "Korath Warder"
+	turret 91 286 "Alr Anti-Missile"
 	
 ship "Alr Sheji"
 	licenses
@@ -110,16 +98,11 @@ ship "Alr Sheji"
 			"hull damage" 150
 			"hit force" 250
 	outfits
-		"Wanderer Anti-Missile"
-		
-		"Small Biochemical Cell" 2
-		
-		"Type 1 Radiant Thruster"
-		"Type 1 Radiant Steering"
+		"Alr Shenji Turret"
 		
 	engine -9 28
 	engine 9 28
-	turret 0 4
+	turret 0 4 "Alr Shenji Turret"
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	description "The Sheji is an autonomous drone usually deployed in groups of 12. They have very weak weaponry though it makes up for it by draining the opponent's ship of energy."
@@ -150,25 +133,14 @@ ship "Alr Azo-1"
 			"hull damage" 1100
 			"hit force" 3300
 	outfits
-		"Korath Minelayer"
-		"Korath Mine" 17
-		"Korath Disruptor"
-		"Korath Slicer Turret"
-		
-		"Plasma Core"
-		"Generator (Inferno Class)"
-		"Systems Core (Small)"
-		"Small Heat Shunt"
-		
-		"Thruster (Planetary Class)"
-		"Steering (Lunar Class)"
-		Hyperdrive
-	
+		"Alr Fhon Beam"
+		"Alr Anti-Missile"
+
 	engine -10 99
 	engine 10 99
-	gun 0 -99 "Korath Minelayer"
-	turret -18 -31 "Korath Disruptor"
-	turret 19 49 "Korath Slicer Turret"
+	gun 0 -99 "Alr Fhon Beam"
+	turret -18 -31 "Alr Anti-Missile"
+	turret 19 49 
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -203,26 +175,15 @@ ship "Alr Azo-5"
 			"hull damage" 1600
 			"hit force" 4800
 	outfits
-		"Korath Minelayer"
-		"Korath Mine" 17
-		"Korath Disruptor"
-		"Korath Slicer Turret" 2
-		
-		"Double Plasma Core"
-		"Generator (Candle Class)"
-		"Systems Core (Small)"
-		"Small Heat Shunt"
-		
-		"Thruster (Planetary Class)"
-		"Steering (Lunar Class)"
-		Hyperdrive
+		"Alr Fhon Beam"
+		"Alr Anti-Missile"
 
 	engine -10 128
 	engine 10 128
-	gun 0 -129 "Korath Minelayer"
-	turret 32 -24 "Korath Disruptor"
-	turret -31 -9 "Korath Slicer Turret"
-	turret 24 19 "Korath Slicer Turret"
+	gun 0 -129 "Alr Fhon Beam"
+	turret 32 -24 "Alr Anti-Missile"
+	turret -31 -9
+	turret 24 19
 	explode "tiny explosion" 80
 	explode "small explosion" 55
 	explode "medium explosion" 40
@@ -257,27 +218,16 @@ ship "Alr Azo-15"
 			"hull damage" 2000
 			"hit force" 6000
 	outfits
-		"Korath Minelayer"
-		"Korath Mine" 17
-		"Korath Disruptor" 2
-		"Korath Slicer Turret" 2
+		"Alr Fhon Beam"
+		"Alr Anti-Missile"
 		
-		"Double Plasma Core"
-		"Generator (Furnace Class)"
-		"Systems Core (Medium)"
-		
-		"Thruster (Lunar Class)"
-		"Thruster (Asteroid Class)"
-		"Steering (Planetary Class)"
-		Hyperdrive
-	
 	engine -19 159
 	engine 19 159
-	gun 0 -159 "Korath Minelayer"
-	turret -35 -69 "Korath Disruptor"
-	turret 20 -74 "Korath Slicer Turret"
-	turret 34 77 "Korath Disruptor"
-	turret -29 71 "Korath Slicer Turret"
+	gun 0 -159 "Alr Fhon Beam"
+	turret -35 -69 
+	turret 20 -74 
+	turret 34 77 "Alr Anti-Missile"
+	turret -29 71 
 	explode "tiny explosion" 100
 	explode "small explosion" 70
 	explode "medium explosion" 50
@@ -311,30 +261,17 @@ ship "Alr Fakoret"
 			"hull damage" 2000
 			"hit force" 6000
 	outfits
-		"Korath Detainer"
-		"Korath Piercer Launcher" 2
-		"Korath Piercer" 62
-		"Korath Banisher"
-		"Korath Warder" 2
-		
-		"Double Plasma Core"
-		"Generator (Furnace Class)"
-		"Systems Core (Medium)"
-		"Large Heat Shunt"
-		
-		"Thruster (Lunar Class)"
-		"Steering (Lunar Class)"
-		"Hyperdrive"
+		"Alr Anti-Missile" 2
 	
 	engine -9 219
 	engine 9 219
-	gun 10 -180 "Korath Detainer"
-	gun 10 -180 "Korath Piercer Launcher"
-	gun 10 -180 "Korath Piercer Launcher"
-	turret -10 -85 "Korath Warder"
+	gun 10 -180 
+	gun 10 -180 
+	gun 10 -180 
+	turret -10 -85 "Alr Anti-Missile"
 	turret -13 -61
-	turret -14 -38 "Korath Banisher"
-	turret 14 177 "Korath Warder"
+	turret -14 -38 
+	turret 14 177 "Alr Anti-Missile"
 	drone 20.5 -65 over
 	drone 44.5 -40 over
 	drone 30 67 over
@@ -379,32 +316,19 @@ ship "Alr Fakocot"
 			"hull damage" 2200
 			"hit force" 6600
 	outfits
-		"Korath Detainer"
-		"Korath Piercer Launcher" 3
-		"Korath Piercer" 93
-		"Korath Banisher"
-		"Korath Warder" 2
-		
-		"Double Plasma Core"
-		"Generator (Inferno Class)"
-		"Systems Core (Medium)"
-		"Large Heat Shunt"
-		
-		"Thruster (Lunar Class)"
-		"Steering (Planetary Class)"
-		Hyperdrive
+		"Alr Anti-Missile" 2
 	
 	engine -9 245
 	engine 9 245
-	gun 0 -239 "Korath Detainer"
-	gun 0 -239 "Korath Piercer Launcher"
-	gun -9 -220 "Korath Piercer Launcher"
-	gun -9 -220 "Korath Piercer Launcher"
-	turret 17 -133 "Korath Warder"
+	gun 0 -239 
+	gun 0 -239 
+	gun -9 -220 
+	gun -9 -220 
+	turret 17 -133 "Alr Anti-Missile"
 	turret 19 -110
 	turret 21 -87
-	turret 23 -64 "Korath Banisher"
-	turret 38 145 "Korath Warder"
+	turret 23 -64 
+	turret 38 145 "Alr Anti-Missile"
 	fighter -18.5 -163 over
 	fighter -43.5 -103.5 over
 	fighter -16.5 -32.5 over
@@ -448,26 +372,15 @@ ship "Alr Fakiza"
 			"hull damage" 1600
 			"hit force" 4800
 	outfits
-		"Korath Detainer"
-		"Korath Piercer Launcher" 2
-		"Korath Piercer" 62
-		"Korath Banisher" 2
-		
-		"Double Plasma Core"
-		"Systems Core (Medium)"
-		"Small Heat Shunt" 2
-		
-		"Thruster (Lunar Class)"
-		"Steering (Planetary Class)"
-		Hyperdrive
+		"Alr Anti-Missile" 2
 	
 	engine -9 205
 	engine 9 205
-	gun 0 -214 "Korath Detainer"
-	gun -14 -206 "Korath Piercer Launcher"
-	gun 14 -206 "Korath Piercer Launcher"
-	turret -89 32
-	turret 89 32
+	gun 0 -214 
+	gun -14 -206 
+	gun 14 -206 
+	turret -89 32 "Alr Anti-Missile"
+	turret 89 32 "Alr Anti-Missile"
 	drone 38.5 -115.5 over
 	drone 25 -50.5 over
 	drone 59 28 over
@@ -519,30 +432,19 @@ ship "Alr Vo"
 			"hull damage" 1600
 			"hit force" 4800
 	outfits
-		"Korath Repeater" 3
-		"Korath Repeater Turret" 6
+		"Alr Anti-Missile" 2
 		
-		"Double Plasma Core"
-		"Generator (Inferno Class)"
-		"Systems Core (Medium)"
-		"Large Heat Shunt" 3
-		
-		"Thruster (Lunar Class)"
-		"Steering (Planetary Class)"
-		Hyperdrive
-	
 	engine -24 132
 	engine 24 132
-	gun 0 -92 "Korath Repeater"
-	gun -10 -65 "Korath Repeater"
-	gun 10 -65 "Korath Repeater"
-	turret -36 -45 "Korath Repeater Turret"
-	turret 36 -45 "Korath Repeater Turret"
-	turret -38 -28 "Korath Repeater Turret"
-	turret 38 -28 "Korath Repeater Turret"
-	turret -40 -8 "Korath Repeater Turret"
-	turret 40 -8 "Korath Repeater Turret"
-	
+	gun 0 -92 
+	gun -10 -65 
+	gun 10 -65 
+	turret -36 -45 
+	turret 36 -45 
+	turret -38 -28 "Alr Anti-Missile"
+	turret 38 -28 "Alr Anti-Missile"
+	turret -40 -8 
+	turret 40 -8 
 	explode "tiny explosion" 60
 	explode "small explosion" 30
 	explode "medium explosion" 35
@@ -576,20 +478,14 @@ ship "Alr Krajina"
 			"hull damage" 500
 			"hit force" 1500
 	outfits
-		"Quarg Skylance" 2
-		"Quarg Anti-Missile" 2
-		"Nanotech Battery"
-		"Quantum Shield Generator"
-		"Intrusion Countermeasures" 120
-		"Medium Graviton Thruster"
-		"Medium Graviton Steering"
-		"Jump Drive"
+		"Alr Anti-Missile" 2
+
 	engine -15 117
 	engine 15 117
-	turret -12 -80 "Quarg Skylance"
-	turret 12 -80 "Quarg Skylance"
-	turret -12 -80 "Quarg Anti-Missile"
-	turret 12 -80 "Quarg Anti-Missile"
+	turret -12 -80 
+	turret 12 -80 
+	turret -12 -80 "Alr Anti-Missile"
+	turret 12 -80 "Alr Anti-Missile"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 30
@@ -597,4 +493,37 @@ ship "Alr Krajina"
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
 	description "The Alr Krajina is the workhorse of the Alr military. Its modular design and powerful hull make it an instant buy for anyone with the authority to acquire one."
+	
+ship "Alr Specter"
+	sprite "ship/horn"
+	attributes
+		category "Fighter"
+		"cost" 480000
+		"shields" 700
+		"hull" 400
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" .7
+		"heat dissipation" .8
+		"outfit space" 150
+		"weapon capacity" 40
+		"engine capacity" 50
+		"fuel capacity" 250
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+
+	engine 4.5 52
+	engine -4.5 52
+	gun 17.5 -34.5 
+	gun -17.5 -34.5 
+	gun 26 -25.5 
+	gun -26 -25.5 
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The Alr Specter is the only fighter produced by the Alr. What makes it special is its ability to cloak."
 	
