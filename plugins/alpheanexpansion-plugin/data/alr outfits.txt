@@ -230,3 +230,108 @@ outfit "Alr 'Sarajevo' Generator"
 	"heat generation" 13
 	"power capacity" 1200
 	description "The Sarajevo Generator is a slightly larger generator used in the smaller spectrum of military ships."
+
+outfit "Alr Artilerija"
+	category "Guns"
+	cost 306000
+	thumbnail "outfit/unknown"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"energy capacity" 100
+	"gun ports" -1
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 2
+		"velocity" 20
+		"lifetime" 120
+		"reload" 120
+		"burst reload" 10
+		"burst count" 20
+		"stream"
+		"firing energy" 24
+		"firing heat" 128
+		"shield damage" 32
+		"hull damage" 23.333
+		"heat damage" 1.233
+	description "The Artilerija is the backbone of the Alr Long-Ranged Task Force. The long range and damaging abilities make this a deadly weapon."
+
+outfit "Alr Artilerija Turret"
+	category "Turrets"
+	cost 874000
+	thumbnail "outfit/repeater turret"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"energy capacity" 200
+	"required crew" 1
+	"turret mounts" -1
+	weapon
+		sprite "projectile/repeater"
+			"frame rate" 5
+		sound "repeater"
+		"hit effect" "repeater impact"
+		"inaccuracy" 2
+		"velocity" 20
+		"lifetime" 120
+		"reload" 120
+		"burst reload" 10
+		"burst count" 20
+		"stream"
+		"firing energy" 24
+		"firing heat" 128
+		"shield damage" 32
+		"hull damage" 23.333
+		"heat damage" 1.233
+	description "The Artilerija is the backbone of the Alr Long-Ranged Task Force. The long range and damaging abilities make this a deadly weapon."
+
+outfit "Alr Vucijak Projector"
+	category "Systems"
+	cost 1060000
+	thumbnail "outfit/small heat shunt"
+	"mass" 45
+	"outfit space" -45
+	"shield generation" 3.0556
+    "shield energy" .2
+	description "The Vucijak class projector uses a special kind of shielding system that has a high yield and low energy cost."
+	
+outfit "Alr Zemlja Projector"
+	category "Systems"
+	cost 1060000
+	thumbnail "outfit/large heat shunt"
+	"mass" 75
+	"outfit space" -75
+	"shield generation" 4.778
+    "shield energy" .7
+	description "The Zemlja class projector uses a special kind of shielding system that has a high yield and low energy cost."
+
+outfit "Alr Kartara Absorber"
+	category "Systems"
+	cost 1060000
+	thumbnail "outfit/medium systems core"
+	"mass" 50
+	"outfit space" -50
+	"shield generation" 2
+    "shield energy" -5
+	description "The Kartara class Absorber is the only known absorbtion shield system. Most races don't use them because the cons outweigh the pros, but the Alr have found a solution to those."
+	
+outfit "Alr Heat Shunt"
+	category "Systems"
+	cost 180000
+	thumbnail "outfit/small heat shunt"
+	"mass" 10
+	"outfit space" -10
+	"cooling" 15
+	description "The Alr Heat Shunt uses technology similar to that of Korath making you believe this is just a pillaged Heat Shunt."
+
+outfit "Alr Plasma Shunt"
+	category "Systems"
+	cost 790000
+	thumbnail "outfit/large heat shunt"
+	"mass" 25
+	"outfit space" -25
+	"cooling" 60
+	description "The Alr Heat Shunt uses technology similar to that of Korath making you believe this is just a pillaged Heat Shunt."
