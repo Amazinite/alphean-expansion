@@ -24,8 +24,8 @@ ship "Alr Velika"
 		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 764
-		"outfit space" 778
-		"weapon capacity" 314
+		"outfit space" 850
+		"weapon capacity" 300
 		"engine capacity" 165
 		weapon
 			"blast radius" 400
@@ -100,10 +100,12 @@ ship "Alr Ukrasti"
 		"mass" 40
 		"drag" .6
 		"heat dissipation" .9
-		"outfit space" 86
-		"weapon capacity" 28
-		"engine capacity" 26
+		"outfit space" 150
+		"weapon capacity" 25
+		"engine capacity" 45
 		"automaton" 1
+		"shield generation" 1
+		"shield energy" .2
 		weapon
 			"blast radius" 10
 			"shield damage" 100
