@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Alr Fahrzan"
+ship "Alr Velika"
 	licenses
 		"Alr Mixed"
 	sprite "ship/world-ship a"
@@ -34,7 +34,9 @@ ship "Alr Fahrzan"
 			"hit force" 12000
 	outfits
 		"Alr Anti-Missile" 3
-
+		
+		"Alr Americi Steering"
+		"Alr Americi Thruster"
 	engine -37 343
 	engine 0 343
 	engine 37 343
@@ -55,7 +57,7 @@ ship "Alr Fahrzan"
 	description "The Alr have built ships that are near-identical to the World-Ships used by the Kor Efret and the Korath Exiles."
 	description "These giants are the backbone of the Alr economy but they're also valuable assets to their military forces."
 
-ship "Alr Fahrzan" "Alr Fahrzan B"
+ship "Alr Velika" "Alr Velika B"
 	sprite "ship/world-ship b"
 	turret -76 -219 "Korath Grab-Strike"
 	turret 76 -219 "Korath Grab-Strike"
@@ -66,7 +68,7 @@ ship "Alr Fahrzan" "Alr Fahrzan B"
 	turret 83 165 "Alr Anti-Missile"
 	turret 0 277 "Korath Banisher"
 
-ship "Alr Fahrzan" "Alr Fahrzan C"
+ship "Alr Velika" "Alr Velika C"
 	sprite "ship/world-ship c"
 	turret -45 -247 "Alr Anti-Missile"
 	turret 45 -247 "Korath Grab-Strike"
@@ -77,7 +79,7 @@ ship "Alr Fahrzan" "Alr Fahrzan C"
 	turret -91 286 "Korath Banisher"
 	turret 91 286 "Alr Anti-Missile"
 	
-ship "Alr Sheji"
+ship "Alr Ukrasti"
 	licenses
 		"Alr Military"
 	sprite "ship/flycatcher"
@@ -98,16 +100,18 @@ ship "Alr Sheji"
 			"hull damage" 150
 			"hit force" 250
 	outfits
-		"Alr Shenji Turret"
+		"Alr Ukrasti Turret"
 		
+		"Alr Evropi Thruster"
+		"Alr Evropi Steering"
 	engine -9 28
 	engine 9 28
 	turret 0 4 "Alr Shenji Turret"
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The Sheji is an autonomous drone usually deployed in groups of 12. They have very weak weaponry though it makes up for it by draining the opponent's ship of energy."
+	description "The Ukrasti is an autonomous drone usually deployed in groups of 12. They have very weak weaponry though it makes up for it by draining the opponent's ship of energy."
 	
-ship "Alr Azo-1"
+ship "Alr Mali-1"
 	licenses
 		"Alr Military"
 	sprite "ship/model 16"
@@ -133,12 +137,14 @@ ship "Alr Azo-1"
 			"hull damage" 1100
 			"hit force" 3300
 	outfits
-		"Alr Fhon Beam"
+		"Alr Vatra Beam"
 		"Alr Anti-Missile"
 
+		"Alr Evropi Thruster"
+		"Alr Evropi Steering"
 	engine -10 99
 	engine 10 99
-	gun 0 -99 "Alr Fhon Beam"
+	gun 0 -99 "Alr Vatra Beam"
 	turret -18 -31 "Alr Anti-Missile"
 	turret 19 49 
 	explode "tiny explosion" 60
@@ -146,10 +152,10 @@ ship "Alr Azo-1"
 	explode "medium explosion" 30
 	explode "big explosion" 10
 	"final explode" "final explosion small"
-	description "The Alr Azo models are part of the Alr military-controlled Automaton Force."
-	description "Each Azo serves its own purpose and in groups can quickly turn the tides of battle."
+	description "The Alr Mali models are part of the Alr military-controlled Automaton Force."
+	description "Each Mali serves its own purpose and in groups can quickly turn the tides of battle."
 
-ship "Alr Azo-5"
+ship "Alr Mali-5"
 	licenses
 		"Alr Military"
 	sprite "ship/model 32"
@@ -175,12 +181,14 @@ ship "Alr Azo-5"
 			"hull damage" 1600
 			"hit force" 4800
 	outfits
-		"Alr Fhon Beam"
+		"Alr Vatra Beam"
 		"Alr Anti-Missile"
 
+		"Alr Australiji Thruster"
+		"Alr Australiji Steering"
 	engine -10 128
 	engine 10 128
-	gun 0 -129 "Alr Fhon Beam"
+	gun 0 -129 "Alr Vatra Beam"
 	turret 32 -24 "Alr Anti-Missile"
 	turret -31 -9
 	turret 24 19
@@ -189,10 +197,10 @@ ship "Alr Azo-5"
 	explode "medium explosion" 40
 	explode "big explosion" 15
 	"final explode" "final explosion medium"
-	description "The upgrade from Azo-1 to Azo-5 makes it twice as deadly but far slower, granting them a supporting role in the Automaton Force."
+	description "The upgrade from Mali-1 to Mali-5 makes it twice as deadly but far slower, granting them a supporting role in the Automaton Force."
 
 
-ship "Alr Azo-15"
+ship "Alr Mali-15"
 	licenses
 		"Alr Military"
 	sprite "ship/model 64"
@@ -218,12 +226,14 @@ ship "Alr Azo-15"
 			"hull damage" 2000
 			"hit force" 6000
 	outfits
-		"Alr Fhon Beam"
+		"Alr Vatra Beam"
 		"Alr Anti-Missile"
-		
+
+		"Alr Americi Thruster"
+		"Alr Americi Steering"
 	engine -19 159
 	engine 19 159
-	gun 0 -159 "Alr Fhon Beam"
+	gun 0 -159 "Alr Vatra Beam"
 	turret -35 -69 
 	turret 20 -74 
 	turret 34 77 "Alr Anti-Missile"
@@ -233,9 +243,9 @@ ship "Alr Azo-15"
 	explode "medium explosion" 50
 	explode "big explosion" 20
 	"final explode" "final explosion medium"
-	description "The Azo-15 is the final stage of the Azo line. While its the upgrade from Azo-1 to Azo-5 made it slower, the upgrade to Azo-15 made faster, stronger and overall better. Usually, though, they are used at mobile resupply platforms due to their offensive abilities paired with their high volume cargo hold."
+	description "The Mali-15 is the final stage of the Mali line. While its the upgrade from Mali-1 to Mali-5 made it slower, the upgrade to Mali-15 made faster, stronger and overall better. Usually, though, they are used at mobile resupply platforms due to their offensive abilities paired with their high volume cargo hold."
 	
-ship "Alr Fakoret"
+ship "Alr Nositi Lijevo"
 	licenses
 		"Alr Mixed"
 	sprite "ship/tek far 71 lek"
@@ -263,6 +273,8 @@ ship "Alr Fakoret"
 	outfits
 		"Alr Anti-Missile" 2
 	
+		"Alr Australiji Thruster"
+		"Alr Australiji Steering"
 	engine -9 219
 	engine 9 219
 	gun 10 -180 
@@ -288,9 +300,9 @@ ship "Alr Fakoret"
 	explode "big explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Alr Fakoret is an example of Alr ingenuity; flexible multirole ships. The Fakoret doubles as a transport, a carrier, and freighter. This makes it a very flexible ship."
+	description "The Alr Nositi Lijevo is an example of Alr ingenuity; flexible multirole ships. The Lijevo doubles as a transport, a carrier, and freighter. This makes it a very flexible ship."
 
-ship "Alr Fakocot"
+ship "Alr Nositi Desno"
 	licenses
 		"Alr Mixed"
 	sprite "ship/tek far 78 osk"
@@ -318,6 +330,8 @@ ship "Alr Fakocot"
 	outfits
 		"Alr Anti-Missile" 2
 	
+		"Alr Australiji Thruster"
+		"Alr Australiji Steering"
 	engine -9 245
 	engine 9 245
 	gun 0 -239 
@@ -344,9 +358,9 @@ ship "Alr Fakocot"
 	explode "big explosion" 45
 	explode "huge explosion" 12
 	"final explode" "final explosion large"
-	description "The Alr Fakocot is an example of Alr ingenuity; flexible multirole ships. The Fakocot doubles as a transport, a carrier, and freighter. This makes it a very flexible ship."
+	description "The Alr Nositi Desno is an example of Alr ingenuity; flexible multirole ships. The Desno doubles as a transport, a carrier, and freighter. This makes it a very flexible ship."
 
-ship "Alr Fakiza"
+ship "Alr Nositi Sredisnji"
 	licenses
 		"Alr Mixed"
 	sprite "ship/tek far 109"
@@ -374,6 +388,8 @@ ship "Alr Fakiza"
 	outfits
 		"Alr Anti-Missile" 2
 	
+		"Alr Americi Thruster"
+		"Alr Americi Steering"
 	engine -9 205
 	engine 9 205
 	gun 0 -214 
@@ -403,10 +419,10 @@ ship "Alr Fakiza"
 	explode "big explosion" 30
 	explode "huge explosion" 8
 	"final explode" "final explosion medium"
-	description "The Alr Fakiza is commonly used for both troop transport and civilian transport. This is because of its high number of bunks and dense hull."
+	description "The Alr Nositi Sredisnji is commonly used for both troop transport and civilian transport. This is because of its high number of bunks and dense hull."
 
 
-ship "Alr Vo"
+ship "Alr Braniti"
 	licenses
 		"Alr Civilian"
 	sprite "ship/met par tek 53"
@@ -434,6 +450,8 @@ ship "Alr Vo"
 	outfits
 		"Alr Anti-Missile" 2
 		
+		"Alr Evropi Thruster"
+		"Alr Evropi Steering"
 	engine -24 132
 	engine 24 132
 	gun 0 -92 
@@ -480,6 +498,8 @@ ship "Alr Krajina"
 	outfits
 		"Alr Anti-Missile" 2
 
+		"Alr Americi Thruster"
+		"Alr Americi Steering"
 	engine -15 117
 	engine 15 117
 	turret -12 -80 
@@ -494,7 +514,7 @@ ship "Alr Krajina"
 	"final explode" "final explosion medium"
 	description "The Alr Krajina is the workhorse of the Alr military. Its modular design and powerful hull make it an instant buy for anyone with the authority to acquire one."
 	
-ship "Alr Specter"
+ship "Alr Spektar"
 	sprite "ship/horn"
 	attributes
 		category "Fighter"
@@ -509,14 +529,17 @@ ship "Alr Specter"
 		"outfit space" 150
 		"weapon capacity" 40
 		"engine capacity" 50
-		"fuel capacity" 250
+		"cloak" .012
 		weapon
 			"blast radius" 12
 			"shield damage" 120
 			"hull damage" 60
 			"hit force" 180
 	outfits
-
+		"Alr Vatra Beam" 4
+		
+		"Alr Evropi Thruster"
+		"Alr Evropi Steering"
 	engine 4.5 52
 	engine -4.5 52
 	gun 17.5 -34.5 
@@ -525,5 +548,5 @@ ship "Alr Specter"
 	gun -26 -25.5 
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The Alr Specter is the only fighter produced by the Alr. What makes it special is its ability to cloak."
+	description "The Alr Spektar is the only fighter produced by the Alr. What makes it special is its ability to cloak."
 	
