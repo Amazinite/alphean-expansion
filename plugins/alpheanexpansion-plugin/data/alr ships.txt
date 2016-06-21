@@ -254,17 +254,16 @@ ship "Alr Nositi Lijevo"
 		"cost" 22870000
 		"shields" 25400
 		"hull" 29500
-		"automaton" 1
 		"mass" 610
 		"drag" 9.6
+		"bunks 365"
+		"required crew" 49
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 36
 		"outfit space" 533
 		"weapon capacity" 235
 		"engine capacity" 102
-		"self destruct" .7
-		"ramscoop" 3
 		weapon
 			"blast radius" 320
 			"shield damage" 4000
@@ -320,17 +319,16 @@ ship "Alr Nositi Desno"
 		"cost" 25630000
 		"shields" 27600
 		"hull" 34100
-		"automaton" 1
 		"mass" 690
 		"drag" 10.2
+		"bunks" 371
+		"required crew" 53
 		"heat dissipation" .55
 		"fuel capacity" 400
 		"cargo space" 43
 		"outfit space" 611
 		"weapon capacity" 272
 		"engine capacity" 117
-		"self destruct" .7
-		"ramscoop" 3
 		weapon
 			"blast radius" 340
 			"shield damage" 4400
@@ -388,17 +386,16 @@ ship "Alr Nositi Sredisnji"
 		"cost" 18290000
 		"shields" 17900
 		"hull" 15800
-		"automaton" 1
 		"mass" 540
 		"drag" 9.1
+		"bunks" 912
+		"required crew" 325
 		"heat dissipation" .65
 		"fuel capacity" 400
 		"cargo space" 31
 		"outfit space" 491
 		"weapon capacity" 217
 		"engine capacity" 98
-		"self destruct" .7
-		"ramscoop" 3
 		weapon
 			"blast radius" 280
 			"shield damage" 3200
@@ -457,17 +454,16 @@ ship "Alr Braniti"
 		"cost" 14480000
 		"shields" 15100
 		"hull" 22200
-		"automaton" 1
 		"mass" 420
 		"drag" 5.7
+		"bunks" 120
+		"required crew" 30
 		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 26
 		"outfit space" 610
 		"weapon capacity" 213
 		"engine capacity" 110
-		"self destruct" .65
-		"ramscoop" 3
 		weapon
 			"blast radius" 250
 			"shield damage" 3200
