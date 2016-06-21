@@ -23,9 +23,9 @@ ship "Alr Velika"
 		"drag" 21
 		"heat dissipation" .4
 		"fuel capacity" 800
-		"cargo space" 764
-		"outfit space" 850
-		"weapon capacity" 300
+		"cargo space" 760
+		"outfit space" 730
+		"weapon capacity" 200
 		"engine capacity" 165
 		weapon
 			"blast radius" 400
@@ -102,10 +102,9 @@ ship "Alr Mali-1"
 		"drag" 6.9
 		"heat dissipation" 1.3
 		"fuel capacity" 400
-		"cargo space" 7
-		"outfit space" 426
-		"weapon capacity" 149
-		"engine capacity" 107
+		"outfit space" 250
+		"weapon capacity" 120
+		"engine capacity" 50
 		"self destruct" .65
 		"ramscoop" 3
 		weapon
@@ -148,13 +147,13 @@ ship "Alr Mali-5"
 		"shields" 27900
 		"hull" 13400
 		"automaton" 1
-		"mass" 370
+		"mass" 480
 		"drag" 9.0
 		"heat dissipation" 1.3
 		"fuel capacity" 400
 		"cargo space" 16
-		"outfit space" 481
-		"weapon capacity" 205
+		"outfit space" 450
+		"weapon capacity" 130
 		"engine capacity" 110
 		"self destruct" .70
 		"ramscoop" 3
@@ -206,9 +205,9 @@ ship "Alr Mali-15"
 		"heat dissipation" 1.1
 		"fuel capacity" 400
 		"cargo space" 34
-		"outfit space" 567
-		"weapon capacity" 263
-		"engine capacity" 114
+		"outfit space" 570
+		"weapon capacity" 200
+		"engine capacity" 160
 		"self destruct" .74
 		"ramscoop" 3
 		weapon
@@ -261,9 +260,9 @@ ship "Alr Nositi Lijevo"
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 36
-		"outfit space" 533
-		"weapon capacity" 235
-		"engine capacity" 102
+		"outfit space" 460
+		"weapon capacity" 125
+		"engine capacity" 95
 		weapon
 			"blast radius" 320
 			"shield damage" 4000
@@ -326,9 +325,9 @@ ship "Alr Nositi Desno"
 		"heat dissipation" .55
 		"fuel capacity" 400
 		"cargo space" 43
-		"outfit space" 611
-		"weapon capacity" 272
-		"engine capacity" 117
+		"outfit space" 490
+		"weapon capacity" 150
+		"engine capacity" 95
 		weapon
 			"blast radius" 340
 			"shield damage" 4400
@@ -393,9 +392,9 @@ ship "Alr Nositi Sredisnji"
 		"heat dissipation" .65
 		"fuel capacity" 400
 		"cargo space" 31
-		"outfit space" 491
-		"weapon capacity" 217
-		"engine capacity" 98
+		"outfit space" 420
+		"weapon capacity" 130
+		"engine capacity" 155
 		weapon
 			"blast radius" 280
 			"shield damage" 3200
@@ -461,9 +460,9 @@ ship "Alr Braniti"
 		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 26
-		"outfit space" 610
-		"weapon capacity" 213
-		"engine capacity" 110
+		"outfit space" 500
+		"weapon capacity" 245
+		"engine capacity" 45
 		weapon
 			"blast radius" 250
 			"shield damage" 3200
@@ -516,9 +515,9 @@ ship "Alr Krajina"
 		"heat dissipation" .7
 		"fuel capacity" 1000
 		"cargo space" 200
-		"outfit space" 600
-		"weapon capacity" 200
-		"engine capacity" 120
+		"outfit space" 725
+		"weapon capacity" 180
+		"engine capacity" 150
 		weapon
 			"blast radius" 250
 			"shield damage" 1000
@@ -561,8 +560,8 @@ ship "Alr Spektar"
 		"mass" 30
 		"drag" .7
 		"heat dissipation" .8
-		"outfit space" 150
-		"weapon capacity" 40
+		"outfit space" 170
+		"weapon capacity" 80
 		"engine capacity" 50
 		"cloak" .012
 		weapon
