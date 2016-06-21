@@ -28,8 +28,8 @@ outfit "Alr Vatra Beam"
 		"firing energy" 7
 		"firing heat" 2
 		"shield damage" 4.320952
-		"hull damage" .012
-	description "The Vatra Beam seems to be designed for the express purpose of damaging shields. Their hull damage is inignificant."
+		"hull damage" 3
+	description "The Vatra Beam seems to be designed for the express purpose of damaging shields."
 	
 outfit "Alr Vatra Beam Turret"
 	category "Turrets"
@@ -51,7 +51,7 @@ outfit "Alr Vatra Beam Turret"
 		"firing energy" 7
 		"firing heat" 2
 		"shield damage" 4.320952
-		"hull damage" .012
+		"hull damage" 3
 	description "This simple, but effective turret mounts a single Vatra Beam for 360 degree coverage."
 	
 outfit "Alr Anti-Missile"
