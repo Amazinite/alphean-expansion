@@ -96,6 +96,33 @@ outfit "Alr Ukrasti Turret"
 		"ion damage" 20
 	description "The Shenji Turret is the main component of the Alr Shenji."
 	
+outfit "Alr Kanadi Thruster"
+	category "Engines"
+	"cost" 608000
+	thumbnail "outfit/unknown"
+	"mass" 8
+	"outfit space" -8
+	"engine capacity" -8
+	"thrust" 12
+	"thrusting energy" 1.2
+	"thrusting heat" 1.3
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 8
+	"flare sound" "ion medium"
+	description "The Kanadi Engine system is the smallest of the Alr engines."
+
+outfit "Alr Kanadi Steering"
+	category "Engines"
+	"cost" 472000
+	thumbnail "outfit/unknown"
+	"mass" 7
+	"outfit space" -7
+	"engine capacity" -7
+	"turn" 375
+	"turning energy" .7
+	"turning heat" .9
+	description "The Kanadi Engine system is the smallest of the Alr engines."
+	
 outfit "Alr Evropi Thruster"
 	category "Engines"
 	"cost" 608000
@@ -109,7 +136,7 @@ outfit "Alr Evropi Thruster"
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 8
 	"flare sound" "ion medium"
-	description "The Evropi Engine system is the smallest of the Alr engines."
+	description "The Evropi Engine system is the 2nd smallest of the Alr engines."
 
 outfit "Alr Evropi Steering"
 	category "Engines"
@@ -121,7 +148,7 @@ outfit "Alr Evropi Steering"
 	"turn" 750
 	"turning energy" 1.3
 	"turning heat" 2.1
-	description "The Evropi Engine system is the smallest of the Alr engines."
+	description "The Evropi Engine system is the 2nd smallest of the Alr engines."
 	
 outfit "Alr Australiji Thruster"
 	category "Engines"
@@ -248,10 +275,7 @@ outfit "Alr Artilerija"
 		"inaccuracy" 2
 		"velocity" 20
 		"lifetime" 120
-		"reload" 120
-		"burst reload" 10
-		"burst count" 20
-		"stream"
+		"reload" 3
 		"firing energy" 24
 		"firing heat" 128
 		"shield damage" 32
@@ -277,10 +301,7 @@ outfit "Alr Artilerija Turret"
 		"inaccuracy" 2
 		"velocity" 20
 		"lifetime" 120
-		"reload" 120
-		"burst reload" 10
-		"burst count" 20
-		"stream"
+		"reload" 3
 		"firing energy" 24
 		"firing heat" 128
 		"shield damage" 32

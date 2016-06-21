@@ -33,9 +33,8 @@ ship "Alr Velika"
 			"hull damage" 4000
 			"hit force" 12000
 	outfits
-		"Alr Anti-Missile" 3
-		"Alr Ukrasti Turret" 3
-		"Alt Vatra Beam Turret" 2
+		"Alr Anti-Missile" 2
+		"Alr Ukrasti Turret" 6
 		
 		"Alr Heat Shunt" 2
 		"Alr Plasma Shunt"
@@ -50,14 +49,14 @@ ship "Alr Velika"
 	engine -37 343
 	engine 0 343
 	engine 37 343
-	turret -76 -157 "Alr Vatra Beam Turret"
+	turret -76 -157 "Alr Ukrasti Turret"
 	turret 76 -157 "Alr Ukrasti Turret"
-	turret -59 -135 "Alr Anti-Missile"
+	turret -59 -135 "Alr Ukrasti Turret"
 	turret 59 -135 "Alr Ukrasti Turret"
 	turret -61 -6 "Alr Ukrasti Turret"
 	turret 61 -6 "Alr Anti-Missile"
 	turret -66 210 "Alr Anti-Missile"
-	turret 66 210 "Alr Vatra Beam Turret"
+	turret 66 210 "Alr Ukrasti Turret"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -69,61 +68,25 @@ ship "Alr Velika"
 
 ship "Alr Velika" "Alr Velika B"
 	sprite "ship/world-ship b"
-	turret -76 -219 "Alr Vatra Beam Turret"
+	turret -76 -219 "Alr Ukrasti Turret"
 	turret 76 -219 "Alr Ukrasti Turret"
 	turret -75 -112 "Alr Ukrasti Turret"
 	turret 0 -92 "Alr Anti-Missile"
-	turret 75 -112 "Alr Vatra Beam Turret"
+	turret 75 -112 "Alr Ukrasti Turret"
 	turret -83 165 "Alr Anti-Missile"
 	turret 83 165 "Alr Anti-Missile"
-	turret 0 277 "Alr Vatra Beam Turret"
+	turret 0 277 "Alr Ukrasti Turret"
 
 ship "Alr Velika" "Alr Velika C"
 	sprite "ship/world-ship c"
 	turret -45 -247 "Alr Anti-Missile"
-	turret 45 -247 "Alr Vatra Beam Turret"
+	turret 45 -247 "Alr Ukrasti Turret"
 	turret -47 -140 "Alr Ukrasti Turret"
-	turret 47 -140 "Alr Vatra Beam Turret"
+	turret 47 -140 "Alr Ukrasti Turret"
 	turret -70 53 "Alr Anti-Missile"
-	turret 70 53 "Alr Vatra Beam Turret"
+	turret 70 53 "Alr Ukrasti Turret"
 	turret -91 286 "Alr Ukrasti Turret"
 	turret 91 286 "Alr Anti-Missile"
-	
-ship "Alr Ukrasti"
-	licenses
-		"Alr Military"
-	sprite "ship/flycatcher"
-	attributes
-		category "Interceptor"
-		"cost" 830000
-		"hull" 4700
-		"mass" 40
-		"drag" .6
-		"heat dissipation" .9
-		"outfit space" 150
-		"weapon capacity" 25
-		"engine capacity" 45
-		"automaton" 1
-		"shield generation" 1
-		"shield energy" .2
-		weapon
-			"blast radius" 10
-			"shield damage" 100
-			"hull damage" 150
-			"hit force" 250
-	outfits
-		"Alr Ukrasti Turret"
-		"Alr Heat Shunt"
-		"Alr 'Srebrenica' Generator"
-		"Alr Evropi Thruster"
-		"Alr Evropi Steering"
-		"Hyperdrive"
-	engine -9 28
-	engine 9 28
-	turret 0 4 "Alr Shenji Turret"
-	explode "tiny explosion" 30
-	explode "small explosion" 20
-	description "The Ukrasti is an autonomous fighter usually deployed in groups of 12. They have very weak weaponry though it makes up for it by draining the opponent's ship of energy."
 	
 ship "Alr Mali-1"
 	licenses
@@ -309,6 +272,7 @@ ship "Alr Nositi Lijevo"
 			"hit force" 6000
 	outfits
 		"Alr Anti-Missile" 2
+		"Alr Ukrasti Turret" 2
 		
 		"Alr Heat Shunt" 2
 		"Alr Plasma Shunt"
@@ -326,8 +290,8 @@ ship "Alr Nositi Lijevo"
 	gun 10 -180 
 	gun 10 -180 
 	turret -10 -85 "Alr Anti-Missile"
-	turret -13 -61
-	turret -14 -38 
+	turret -13 -61 "Alr Ukrasti Turret"
+	turret -14 -38 "Alr Ukrasti Turret"
 	turret 14 177 "Alr Anti-Missile"
 	fighter 20.5 -65 over
 	fighter 44.5 -40 over
@@ -374,6 +338,8 @@ ship "Alr Nositi Desno"
 			"hit force" 6600
 	outfits
 		"Alr Anti-Missile" 2
+		"Alr Ukrasti Turret" 2
+		"Alr Artilerija Turret"
 		
 		"Alr Heat Shunt" 2
 		"Alr Plasma Shunt"
@@ -392,9 +358,9 @@ ship "Alr Nositi Desno"
 	gun -9 -220 
 	gun -9 -220 
 	turret 17 -133 "Alr Anti-Missile"
-	turret 19 -110
-	turret 21 -87
-	turret 23 -64 
+	turret 19 -110 "Alr Ukrasti Turret"
+	turret 21 -87 "Alr Artilerija Turret"
+	turret 23 -64 "Alr Ukrasti Turret"
 	turret 38 145 "Alr Anti-Missile"
 	fighter -18.5 -163 over
 	fighter -43.5 -103.5 over
@@ -439,6 +405,7 @@ ship "Alr Nositi Sredisnji"
 			"hull damage" 1600
 			"hit force" 4800
 	outfits
+		"Alr Artilerija" 3
 		"Alr Anti-Missile" 2
 		
 		"Alr Heat Shunt" 2
@@ -451,9 +418,9 @@ ship "Alr Nositi Sredisnji"
 		
 	engine -9 205
 	engine 9 205
-	gun 0 -214 
-	gun -14 -206 
-	gun 14 -206 
+	gun 0 -214 "Alr Artilerija"
+	gun -14 -206 "Alr Artilerija"
+	gun 14 -206 "Alr Artilerija"
 	turret -89 32 "Alr Anti-Missile"
 	turret 89 32 "Alr Anti-Missile"
 	fighter 38.5 -115.5 over
@@ -509,6 +476,7 @@ ship "Alr Braniti"
 	outfits
 		"Alr Anti-Missile" 2
 		"Alr Artilerija Turret" 2
+		"Alr Vatra Beam Turret" 2
 		"Alr Plasma Shunt"
 		"Alr Evropi Thruster"
 		"Alr Evropi Steering"
@@ -523,8 +491,8 @@ ship "Alr Braniti"
 	turret 36 -45 "Alr Artilerija Turret"
 	turret -38 -28 "Alr Anti-Missile"
 	turret 38 -28 "Alr Anti-Missile"
-	turret -40 -8 
-	turret 40 -8 
+	turret -40 -8 "Alr Vatra Beam Turret"
+	turret 40 -8 "Alr Vatra Beam Turret"
 	explode "tiny explosion" 60
 	explode "small explosion" 30
 	explode "medium explosion" 35
@@ -607,8 +575,8 @@ ship "Alr Spektar"
 		"Alr Vatra Beam" 4
 		"Alr Heat Shunt"
 		"Alr 'Srebrenica' Generator"
-		"Alr Evropi Thruster"
-		"Alr Evropi Steering"
+		"Alr Kanadi Thruster"
+		"Alr Kanadi Steering"
 	engine 4.5 52
 	engine -4.5 52
 	gun 17.5 -34.5 
