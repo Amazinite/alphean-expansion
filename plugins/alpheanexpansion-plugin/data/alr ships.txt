@@ -256,7 +256,7 @@ ship "Alr Nositi Lijevo"
 		"hull" 29500
 		"mass" 610
 		"drag" 9.6
-		"bunks 365"
+		"bunks" 365
 		"required crew" 49
 		"heat dissipation" .6
 		"fuel capacity" 400
