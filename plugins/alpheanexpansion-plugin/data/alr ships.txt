@@ -474,6 +474,9 @@ ship "Alr Braniti"
 		"Alr Artilerija Turret" 2
 		"Alr Vatra Beam Turret" 2
 		"Alr Plasma Shunt"
+		"Alr Kartara Absorber"
+		"Alr 'Sarajevo' Generator"
+		"Alr 'Zagreb' Core"
 		"Alr Evropi Thruster"
 		"Alr Evropi Steering"
 		"Hyperdrive"

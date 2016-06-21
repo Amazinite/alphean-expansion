@@ -68,12 +68,10 @@ outfit "Alr Anti-Missile"
 		"anti-missile" 45
 		"velocity" 600
 		"lifetime" 1
-		"reload" 60
-		"burst count" 60
-		"burst reload" 3
+		"reload" 3
 		"firing energy" 25
 		"firing heat" 40
-	description "The Alr Anti-Missile uses an advanced tracking system to launch anti-missile missiles in burst of 60 before reloading in one second."
+	description "The Alr Anti-Missile uses an advanced tracking system to launch anti-missile missiles."
 	
 outfit "Alr Ukrasti Turret"
 	category "Turrets"
