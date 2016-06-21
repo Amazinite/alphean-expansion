@@ -38,7 +38,7 @@ outfit "Alr Vatra Beam Turret"
 	"mass" 45
 	"outfit space" -45
 	"weapon capacity" -45
-	"gun ports" -1
+	"turret mounts" -1
 	weapon
 		sprite "projectile/banisher"
 			"frame rate" 60
