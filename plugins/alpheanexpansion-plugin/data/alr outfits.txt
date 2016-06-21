@@ -82,7 +82,7 @@ outfit "Alr Ukrasti Turret"
 	"mass" 15
 	"outfit space" -15
 	"weapon capacity" -15
-	"gun ports" -1
+	"turret mounts" -1
 	weapon
 		sprite "projectile/lightning"
 			"frame rate" 60
