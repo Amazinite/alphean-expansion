@@ -17,9 +17,9 @@ mission "First Contact: Sentar"
 	source
 		government "Syndicate"
 		attributes research
-		random < 70
 	to offer
-		has "license: Navy"
+		random < 70
+		has "license: Navy" #Requires Enigma Corp. to get, gg wp
 	on offer
 		conversation
 			`"Hey kid".`
