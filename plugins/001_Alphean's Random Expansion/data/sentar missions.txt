@@ -55,10 +55,10 @@ mission "First Contact: Sentar"
 				goto youcrazy
 			label youcrazy
 			`	Oh no, it's a very true fact. I know all about them now, when before I could only wonder. Oh yes, the power!"`
+			choice
 				`	"How do you know? Where did this name even come from?"`
-				goto namehow
-			label namehow	
 			`	Well, I named them, of course. I always knew that there was somebody there, stopping all those explorers from coming back. And now I know everything, yes!"`
+			choice
 				`	"How did you get that from that tiny bit of data?"`
 			`"Science is like magic, able to do the most unimaginable things!"`
 			`"Well, here you go. Thanks for helping me!"`
