@@ -1,2 +1,2 @@
 These addons are completely optional but are recommended if you want the full AE Experience.
-Shields Up updates far slower than AE, so if there are any incompatibilities then I shall include a Shields Up addon that fixes them.
+In Shields Up these are included in the Extras folder.
